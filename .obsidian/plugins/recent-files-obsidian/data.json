@@ -1,0 +1,40 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Aider",
+      "path": "10_Knowledge/Phase 11 - Skill Systems/Aider.md"
+    },
+    {
+      "basename": "00_Overview",
+      "path": "10_Knowledge/Phase 11 - Skill Systems/00_Overview.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "99_System/AGENTS.md"
+    },
+    {
+      "basename": "Codex",
+      "path": "99_System/agents/Codex.md"
+    },
+    {
+      "basename": "Starting",
+      "path": "99_System/Starting.md"
+    },
+    {
+      "basename": "Topics",
+      "path": "99_System/Topics.md"
+    },
+    {
+      "basename": "Daily log template",
+      "path": "00_daily_logs/Daily log template.md"
+    },
+    {
+      "basename": "13-03-2026",
+      "path": "00_daily_logs/13-03-2026.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
