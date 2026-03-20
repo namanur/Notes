@@ -28,12 +28,10 @@ The vault is organized into functional layers:
 - **Daily Logs:** Used to track tasks ("To Do") and progress ("What I Did") on a daily basis.
 - **Roadmap Tracking:** `Topics.md` serves as the high-level progress tracker; check off items as they are mastered.
 
-## Active Learning Phases (Roadmap)
-- Phase 0: Learning Infrastructure (Current focus)
-- Phase 1: Computational Thinking
+## Active Learning Projects (Roadmap)
+- Project: The Learning Machine (Infrastructure)
 - ...
-- Phase 11: Skill Systems (Detailed notes for Claude, Gemini, Codex, and Aider are available).
-- Phase 12: Autonomous Systems
+- Project: Agentic Systems (Detailed notes for Claude, Gemini, Codex, and Aider are available).
 
 ---
 *This file serves as the ground truth for Gemini CLI's understanding of this workspace.*

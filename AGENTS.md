@@ -4,7 +4,7 @@
 This repository is an Obsidian vault for personal knowledge management, not a compiled software project. Content is organized by role:
 
 - `00_daily_logs/`: Daily notes named `DD-MM-YYYY.md`, created from `Daily log template.md`.
-- `10_Knowledge/`: Long-form knowledge notes, grouped by learning phase such as `Phase 0 - Learning Infrastructure/` and `Phase 11 - Skill Systems/`.
+- `10_Knowledge/`: Long-form knowledge notes, grouped by projects such as `Project - The Learning Machine/` and `Project - Agentic Systems/`.
 - `99_System/`: Vault meta-docs, indexes, and agent instructions such as `Topics.md`, `Starting.md`, and agent-specific guidance.
 - `.obsidian/`: Vault configuration, themes, and plugin settings. Edit only when intentionally changing workspace behavior.
 

@@ -1,149 +1,68 @@
 # Learning Roadmap (Index)
 
-## Phase 0 — Learning Infrastructure
-- [x] Git and GitHub Setup (SSH)
-- [x] markdown
-- [x] note taking
-- [x] linking ideas
-- [x] personal knowledge management
-- [x] daily logs
-- [x] research workflow
-- [x] information capture
-- [x] knowledge indexing
-- [ ] Version Control (Git)
-    - [ ] Snapshots vs Backups
-    - [ ] Commits and Diffs
-    - [ ] Branching and Merging
-    - [ ] Remotes (GitHub)
+## Active Projects (Executable Outputs)
 
-## Phase 1 — Computational Thinking
-- [ ] binary
-- [ ] bits vs bytes
-- [ ] logic gates
-- [ ] boolean logic
-- [ ] instruction execution
-- [ ] algorithms
-- [ ] complexity
+### [x] Project: The Learning Machine (Infrastructure)
+*Target: Build the second brain and the research environment.*
+- [x] Markdown & Linking (Obsidian)
+- [x] Daily Logs & Workflow
+- [x] Research & Information Capture
+- [x] Knowledge Indexing
+- **Output:** This Obsidian Vault and linked research system.
 
-## Phase 2 — Computer Architecture
-- [ ] CPU
-- [ ] memory hierarchy
-- [ ] RAM
-- [ ] cache
-- [ ] instruction cycle
-- [ ] assembly basics
-- [ ] storage
-- [ ] buses
-- [ ] interrupts
+### [/] Project: Linux System Hardening (OS/Bash)
+*Target: Mastery of the local environment and automation.*
+- [x] Filesystem Mapping (inodes, paths)
+- [x] Stream Manipulation (Stdin/Stdout/Stderr, Redirection)
+- [ ] Pipes and Filters (grep, wc, sort, uniq)
+- [ ] Permissions Audit (rwx, chmod, chown)
+- [ ] Shell Scripting (Automated logging scripts)
+- [x] Automated Daily Audit (`audit_todos.py` + Cron)
+- **Output:** A hardened Fedora environment with automated maintenance loops.
 
-## Phase 3 — Operating Systems
-- [x] processes
-- [ ] threads
-- [ ] scheduling
-- [ ] system calls
-- [ ] memory management
-- [x] filesystems
-    - [ ] Absolute vs Relative Paths
-    - [ ] Inodes and Pointers
-- [x] permissions
-    - [ ] rwx bits
-    - [ ] Ownership (chown/chmod)
-- [x] kernel vs user space
-- [x] Shell Fundamentals
-    - [x] Stdin/Stdout/Stderr
-    - [ ] Pipes (|) and Filters
-    - [x] Redirection (>, >>)
+### [ ] Project: Professional History Tracking (Git)
+*Target: Version control for the knowledge base.*
+- [ ] Git Init & Configuration
+- [ ] Commit Strategy & Diff Analysis
+- [ ] Branching & Conflict Resolution
+- [ ] GitHub Remote Synchronization
+- **Output:** A private GitHub repository tracking every step of the learning curve.
 
-## Phase 4 — Networking
-- [ ] TCP/IP
-    - [ ] Handshakes
-    - [ ] Ports and Sockets
-- [ ] packets
-- [ ] routing
-- [ ] DNS
-    - [ ] Resolution (dig/nslookup)
-- [ ] HTTP
-    - [ ] Methods (GET/POST/PUT/DELETE)
-    - [ ] Status Codes (200/404/500)
-    - [ ] Headers
-- [ ] TLS
-- [ ] sockets
+### [ ] Project: Connected Systems (Networking/APIs)
+*Target: Understanding and interacting with the web.*
+- [ ] Network Tracing (IP, DNS, Routing)
+- [ ] Service Auditing (TCP, Ports, Connections)
+- [ ] Raw HTTP Traffic Analysis (curl -v)
+- [ ] JSON Parsing & Manipulation (jq)
+- [ ] Programmatic API Clients (REST)
+- **Output:** A collection of API tools for automated data retrieval.
 
-## Phase 5 — Programming
-- [ ] Python
-    - [ ] Variables and Types
-    - [ ] Loops and Conditionals
-    - [ ] Requests library (APIs)
-    - [ ] JSON parsing
-- [ ] Bash
-    - [ ] Scripting Basics (shebang, variables)
-    - [ ] Control flow in scripts
-- [ ] JavaScript
-- [ ] C (for systems understanding)
-- [ ] memory
-- [ ] data structures
-- [ ] control flow
-- [ ] debugging
-- [ ] libraries
-- [ ] APIs
-
-## Phase 6 — System Infrastructure
-- [ ] servers
-- [ ] containers
-- [ ] Docker
-- [ ] virtualization
-- [ ] cloud
-- [ ] load balancing
-- [ ] databases
-- [ ] caching
-
-## Phase 7 — Automation
-- [ ] scripts
-- [ ] task automation
-- [ ] pipelines
-- [ ] cron jobs
-- [ ] CLI tools
-    - [ ] text processing (grep, sed, awk)
-    - [ ] data extraction (cut, tr, jq)
-- [ ] workflow automation
-
-## Phase 8 — AI Systems
-- [ ] LLM architecture
-- [ ] tokenization
-- [ ] transformers
-- [ ] embeddings
-- [ ] vector databases
-- [ ] retrieval systems
-- [ ] prompt engineering
-
-## Phase 9 — Agents
-- [ ] tool use
-- [ ] planning loops
-- [ ] agents
-- [ ] sub-agents
-- [ ] task delegation
-- [ ] reasoning chains
-
-## Phase 10 — MCP and Tool Ecosystems
-- [ ] Model Context Protocol
-- [ ] tool APIs
-    - [ ] REST API consumption
-    - [ ] Authentication (Bearer tokens)
-- [ ] context providers
-- [ ] JSON structures
-- [ ] execution layers
-- [ ] skill libraries
-
-## Phase 11 — Skill Systems
+### [ ] Project: Agentic Systems & MCP (AI/Agents)
+*Target: Building cognitive tools and autonomous workflows.*
 - [x] Gemini CLI Skills
 - [x] GWS (Google Workspace CLI)
-- [ ] code_refactor_skill
-- [ ] database_query_skill
-- [ ] documentation_skill
-- [ ] deployment_skill
+- [ ] LLM Architecture & Tokenization
+- [ ] Vector Databases & Retrieval Systems
+- [ ] Planning Loops & Tool Use
+- [ ] MCP Server Implementation
+- **Output:** Custom AI agents and skills capable of autonomous vault management.
 
-## Phase 12 — Autonomous Systems
-- [ ] research agents
-- [ ] coding agents
-- [ ] knowledge agents
-- [ ] automation agents
+---
+
+## Archival / Theoretical (Reference Only)
+*Passive notes merged into projects above.*
+
+### Phase 1 — Computational Thinking
+*Merged into Project: Linux System Hardening (Binary, Boolean logic).*
+
+### Phase 2 — Computer Architecture
+*Merged into Project: Linux System Hardening (CPU, Memory, Assembly).*
+
+### Phase 5 — Programming
+*Merged into Project: Linux System Hardening & Project: Connected Systems.*
+
+### Phase 6 — System Infrastructure
+*Merged into Project: Linux System Hardening (Docker, Virtualization).*
+
+### Phase 8 — AI Systems
+*Merged into Project: Agentic Systems & MCP.*
