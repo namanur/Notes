@@ -1,32 +1,104 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Reading and Writing Files",
+      "path": "10_Knowledge/Phase 3 - Operating Systems/Reading and Writing Files.md"
     },
     {
-      "basename": "00_Overview",
-      "path": "10_Knowledge/Phase 11 - Skill Systems/00_Overview.md"
+      "basename": "20-Day Curriculum",
+      "path": "10_Knowledge/20-Day Curriculum.md"
     },
     {
-      "basename": "AGENTS",
-      "path": "99_System/AGENTS.md"
+      "basename": "Calude ecam prep",
+      "path": "10_Knowledge/Calude ecam prep.pdf"
     },
     {
-      "basename": "Codex",
-      "path": "99_System/agents/Codex.md"
+      "basename": "Claude Exam Dashboard",
+      "path": "10_Knowledge/Claude Exam Dashboard.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "Operating Systems.md"
+    },
+    {
+      "basename": "Linux Fundamentals",
+      "path": "10_Knowledge/Phase 3 - Operating Systems/Linux Fundamentals.md"
     },
     {
       "basename": "Topics",
       "path": "99_System/Topics.md"
     },
     {
-      "basename": "Daily log template",
-      "path": "00_daily_logs/Daily log template.md"
+      "basename": "18-03-2026",
+      "path": "00_daily_logs/18-03-2026.md"
+    },
+    {
+      "basename": "index.html",
+      "path": "index.html.md"
+    },
+    {
+      "basename": "20-03-2026",
+      "path": "00_daily_logs/20-03-2026.md"
     },
     {
       "basename": "13-03-2026",
       "path": "00_daily_logs/13-03-2026.md"
+    },
+    {
+      "basename": "GEMINI",
+      "path": "GEMINI.md"
+    },
+    {
+      "basename": "GitHub and good skills",
+      "path": "10_Knowledge/Phase 11 - Skill Systems/GitHub and good skills.md"
+    },
+    {
+      "basename": "Workflow and Information Capture",
+      "path": "10_Knowledge/Phase 0 - Learning Infrastructure/Workflow and Information Capture.md"
+    },
+    {
+      "basename": "Personal Knowledge Management",
+      "path": "10_Knowledge/Phase 0 - Learning Infrastructure/Personal Knowledge Management.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Git and GitHub Setup",
+      "path": "10_Knowledge/Phase 0 - Learning Infrastructure/Git and GitHub Setup.md"
+    },
+    {
+      "basename": "Codex",
+      "path": "99_System/agents/Codex.md"
+    },
+    {
+      "basename": "Claude",
+      "path": "99_System/agents/Claude.md"
+    },
+    {
+      "basename": "Gemini CLI",
+      "path": "10_Knowledge/Phase 11 - Skill Systems/Gemini CLI.md"
+    },
+    {
+      "basename": "Claude Code",
+      "path": "10_Knowledge/Phase 11 - Skill Systems/Claude Code.md"
+    },
+    {
+      "basename": "Daily log template",
+      "path": "00_daily_logs/Daily log template.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "here we go",
+      "path": "99_System/here we go.md"
+    },
+    {
+      "basename": "00_Overview",
+      "path": "10_Knowledge/Phase 11 - Skill Systems/00_Overview.md"
     }
   ],
   "omittedPaths": [],

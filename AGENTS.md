@@ -36,9 +36,9 @@ Quality checks are manual. Before committing changes:
 - For daily notes, preserve the template structure: `To Do` and `What I Did`.
 
 ## Commit & Pull Request Guidelines
-This directory is not currently a Git repository, so no local commit history is available to infer conventions. If Git is enabled later, use short imperative commit messages such as `Add Phase 11 skill notes` or `Update daily log template`.
+This directory is a Git repository. Use short imperative commit messages such as `Add Phase 11 skill notes` or `Update daily log template`.
 
-Pull requests should summarize changed areas, note any renamed files, and mention whether `.obsidian/` settings were modified, since those affect all vault users.
+Commit regularly to track progress and sync with the remote repository. Pull requests should summarize changed areas, note any renamed files, and mention whether `.obsidian/` settings were modified, since those affect all vault users.
 
 ## Agent-Specific Notes
 Treat `99_System/Agents/` and related instruction files as source-of-truth guidance for AI assistants working in this vault. Keep agent docs concise, repository-specific, and aligned with actual folder structure.
