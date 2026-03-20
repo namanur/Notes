@@ -10,14 +10,14 @@
     - **Concept:** Filesystem tree, inodes, absolute vs relative paths.
     - **Build:** Map the local system.
     - **Links:** [[Linux Fundamentals]], [[Operating Systems#Filesystems]]
-- [x] **Day 2 — Reading and writing files**
+- [ ] **Day 2 — Reading and writing files**
     - **Concept:** Stdin/Stdout, file descriptors, streams.
     - **Build:** Data manipulation with `echo`, `cat`, `head`, `tail`.
     - **Links:** [[Reading and Writing Files]]
-- [ ] **Day 3 — Pipes and filters**
+- [x] **Day 3 — Pipes and filters**
     - **Concept:** Unix philosophy (modular tools).
     - **Build:** Chain `grep`, `wc`, `sort`, `uniq` to extract data.
-    - **Links:** [[Operating Systems#Shell Fundamentals]]
+    - **Links:** [[Linux Shell In-Depth]]
 - [ ] **Day 4 — Permissions and ownership**
     - **Concept:** Multi-user security, `rwx` bits.
     - **Build:** Lock down files/folders with `chmod` and `chown`.

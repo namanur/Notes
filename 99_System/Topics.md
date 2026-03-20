@@ -14,7 +14,7 @@
 *Target: Mastery of the local environment and automation.*
 - [x] Filesystem Mapping (inodes, paths)
 - [x] Stream Manipulation (Stdin/Stdout/Stderr, Redirection)
-- [ ] Pipes and Filters (grep, wc, sort, uniq)
+- [x] Pipes and Filters (grep, wc, sort, uniq)
 - [ ] Permissions Audit (rwx, chmod, chown)
 - [ ] Shell Scripting (Automated logging scripts)
 - [x] Automated Daily Audit (`audit_todos.py` + Cron)
