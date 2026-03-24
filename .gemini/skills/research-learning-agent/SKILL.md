@@ -19,7 +19,7 @@ This skill transforms Gemini CLI into an active research and curriculum manageme
 - If the topic is part of the **Claude Certified Architect** exam, specifically look for Anthropic's official documentation or architecture patterns (Agent SDK, MCP, etc.).
 
 ### 3. Note Creation
-- Create a new Markdown file in the appropriate `10_Knowledge/Phase X` directory.
+- Create a new Markdown file in the appropriate `10_Knowledge/Project - X` directory.
 - Use a structured format:
     - **Concept:** Clear explanation of the "Why".
     - **Technical Details:** In-depth "How".

@@ -41,8 +41,31 @@ Pipes connect the **Stdout** of one command to the **Stdin** of another, creatin
 | `xargs` | Build and execute commands from Stdin | `find . -name "*.log" | xargs rm` |
 | `tee` | Read from Stdin and write to Stdout AND files | `ls | tee list.txt` |
 
+## Advanced Shell Mechanics
+
+### 1. Shell Expansion (The Order of Operations)
+Before a command runs, the shell "expands" it.
+1. **Brace Expansion (`{1..3}`):** Generates lists.
+2. **Variable Expansion (`$VAR`):** Replaces names with values.
+3. **Command Substitution (`$(ls)`):** Replaces with command output.
+4. **Globbing (`*.md`):** Replaces wildcards with matching filenames.
+
+### 2. Exit Codes (`$?`)
+Every command returns a status (0-255).
+- `0`: Success.
+- `Non-zero`: Failure (e.g., `127` means Command Not Found).
+- **Pro Tip:** Use `&&` (AND) and `||` (OR) to chain commands based on success.
+  *Example:* `mkdir tests && cd tests`
+
+## Tools of the Trade (The Big Three)
+Detailed master guides for the core text processing tools:
+- [[Mastering Grep]] — Pattern Matching.
+- [[Mastering Sed]] — Stream Editing.
+- [[Mastering Awk]] — Structured Data.
+
 ## Claude Architect Context
 When designing autonomous systems, the shell is the **glue code**. Reliability comes from:
-1. Using absolute paths in scripts.
-2. Checking exit codes (`$?`).
-3. Using `set -e` in Bash scripts to exit on error.
+1. Always quoting variables: `"$VARIABLE"` (prevents word-splitting errors).
+2. Using absolute paths in scripts.
+3. Checking exit codes (`$?`) to handle errors gracefully.
+

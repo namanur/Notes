@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Command Mastery Lab",
+      "path": "10_Knowledge/Project - Linux System Hardening/Command Mastery Lab.md"
+    },
+    {
       "basename": "20-03-2026",
       "path": "00_daily_logs/20-03-2026.md"
+    },
+    {
+      "basename": "Daily log template",
+      "path": "00_daily_logs/Daily log template.md"
+    },
+    {
+      "basename": "Linux Fundamentals",
+      "path": "10_Knowledge/Project - Linux System Hardening/Linux Fundamentals.md"
+    },
+    {
+      "basename": "Pipes and Filters",
+      "path": "10_Knowledge/Project - Linux System Hardening/Pipes and Filters.md"
+    },
+    {
+      "basename": "Reading and Writing Files",
+      "path": "10_Knowledge/Project - Linux System Hardening/Reading and Writing Files.md"
     },
     {
       "basename": "18-03-2026",
@@ -51,10 +71,6 @@
     {
       "basename": "Claude",
       "path": "99_System/agents/Claude.md"
-    },
-    {
-      "basename": "Daily log template",
-      "path": "00_daily_logs/Daily log template.md"
     },
     {
       "basename": "AGENTS",

@@ -19,7 +19,7 @@ This skill allows Gemini CLI to act as an active learning partner, moving autono
 - **Claude Certification Context:** Always check if the topic appears in the `10_Knowledge/Calude ecam prep.pdf` task statements. If it does, prioritize the exam's "Architectural Judgment" criteria.
 
 ### 3. Note Creation
-- Write a Markdown file in the appropriate `10_Knowledge/Phase X` directory.
+- Write a Markdown file in the appropriate `10_Knowledge/Project - X` directory.
 - **Format:**
     - # Topic Name
     - ## First Principles (How/Why)
