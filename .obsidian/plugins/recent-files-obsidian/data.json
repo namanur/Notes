@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "GEMINI",
+      "path": "GEMINI.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Command Mastery Lab",
       "path": "10_Knowledge/Project - Linux System Hardening/Command Mastery Lab.md"
     },
@@ -9,12 +21,40 @@
       "path": "00_daily_logs/20-03-2026.md"
     },
     {
-      "basename": "Daily log template",
-      "path": "00_daily_logs/Daily log template.md"
+      "basename": "index.html",
+      "path": "index.html.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "Operating Systems.md"
+    },
+    {
+      "basename": "GitHub and good skills",
+      "path": "10_Knowledge/Project - Agentic Systems/GitHub and good skills.md"
+    },
+    {
+      "basename": "Setup Log",
+      "path": "08_Work/Brainback/logs/Setup Log.md"
+    },
+    {
+      "basename": "Project Overview",
+      "path": "08_Work/Brainback/Project Overview.md"
+    },
+    {
+      "basename": "Brainback Mind Map",
+      "path": "08_Work/Brainback/Brainback Mind Map.md"
     },
     {
       "basename": "Linux Fundamentals",
       "path": "10_Knowledge/Project - Linux System Hardening/Linux Fundamentals.md"
+    },
+    {
+      "basename": "sync_log",
+      "path": "00_daily_logs/sync_log.md"
+    },
+    {
+      "basename": "Daily log template",
+      "path": "00_daily_logs/Daily log template.md"
     },
     {
       "basename": "Pipes and Filters",
@@ -45,24 +85,8 @@
       "path": "10_Knowledge/Calude ecam prep.pdf"
     },
     {
-      "basename": "Operating Systems",
-      "path": "Operating Systems.md"
-    },
-    {
-      "basename": "index.html",
-      "path": "index.html.md"
-    },
-    {
       "basename": "13-03-2026",
       "path": "00_daily_logs/13-03-2026.md"
-    },
-    {
-      "basename": "GEMINI",
-      "path": "GEMINI.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Codex",
@@ -71,10 +95,6 @@
     {
       "basename": "Claude",
       "path": "99_System/agents/Claude.md"
-    },
-    {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
     },
     {
       "basename": "here we go",

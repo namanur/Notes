@@ -10,7 +10,7 @@
     - **Concept:** Filesystem tree, inodes, absolute vs relative paths.
     - **Build:** Map the local system.
     - **Links:** [[Linux Fundamentals]], [[Operating Systems#Filesystems]]
-- [ ] **Day 2 — Reading and writing files**
+- [x] **Day 2 — Reading and writing files**
     - **Concept:** Stdin/Stdout, file descriptors, streams.
     - **Build:** Data manipulation with `echo`, `cat`, `head`, `tail`.
     - **Links:** [[Reading and Writing Files]]

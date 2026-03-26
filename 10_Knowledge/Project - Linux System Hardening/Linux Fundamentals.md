@@ -12,7 +12,7 @@ Every other program (terminal, browser, Python) runs on top and asks the kernel 
 
 ## Core Concept: Everything is a File
 In Linux, everything is represented as a file. This includes:
--   **Hardware:** Hard drives, keyboards, USB devices (found in `/dev`).
+-   **Hardware:** Hard d Your vault is now a live, synchronized learning machine. Ready for the next topic, or is there anything else you'd like to adjust?rives, keyboards, USB devices (found in `/dev`).
 -   **Processes:** Running programs (found in `/proc`).
 -   **Network:** Sockets and connections.
 

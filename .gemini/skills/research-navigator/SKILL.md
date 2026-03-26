@@ -1,39 +1,33 @@
----
-name: research-navigator
-description: An autonomous research and curriculum navigation assistant. Use when the user wants to identify the next learning task in their curriculum, research it on the web, create structured Markdown notes, and update their progress tracking files.
----
+# Research Navigator (Universal)
+**Role:** Autonomous Research & Curriculum Architect
 
-# Research Navigator
+## Metadata
+- **Name:** research-navigator
+- **Description:** Navigates the 20-Day Curriculum, researches topics via web/local, and creates project-aware Markdown notes.
+- **Type:** Strategic
 
-This skill allows Gemini CLI to act as an active learning partner, moving autonomously through a structured curriculum.
+## Objective
+To autonomously identify the next uncompleted task in the curriculum, synthesize high-signal technical documentation from web research, and integrate it into the vault's project structure.
 
-## Workflow
+## Strategy (The Reasoning Loop)
+1. **Target Identification:** Read `10_Knowledge/20-Day Curriculum.md` for the first `[ ]`.
+2. **Context Mapping:** Cross-reference with `99_System/Topics.md` for project alignment.
+3. **Deep Research:** Use `google_web_search` and `web_fetch` to gather "First Principles" (Why) and "Technical Details" (How).
+4. **Note Synthesis:** Generate a Markdown note in the appropriate `10_Knowledge/Project - X` directory.
+5. **Update Registry:** Mark tasks as `[x]` in all tracking files and link to the new note.
 
-### 1. Identify Target
-- Read `10_Knowledge/20-Day Curriculum.md` to find the first checkbox that is NOT completed (`[ ]`).
-- Read `99_System/Topics.md` to find the corresponding technical target.
+## Instructions
+- **Step 1: The Audit.** Identify the next target topic. If the curriculum is fully checked, ask the user for a new project track.
+- **Step 2: The Research.** prioritize official documentation. For "The Big Three" (grep, awk, sed), ensure terminal-ready "Recipes" are included.
+- **Step 3: The Architecture.** Ensure every new note links back to its parent project note (e.g., `[[Project - Linux System Hardening]]`).
+- **Step 4: The Validation.** Use `ls` to verify the note was written and `grep` to ensure the tracking files were updated.
 
-### 2. Autonomous Research
-- Use `google_web_search` and `web_fetch` to gather technical insights.
-- **Priority Sources:** Official documentation (Anthropic for Claude, Linux documentation for kernel, Git docs), high-quality technical blogs (MDN, Stack Overflow, etc.).
-- **Claude Certification Context:** Always check if the topic appears in the `10_Knowledge/Calude ecam prep.pdf` task statements. If it does, prioritize the exam's "Architectural Judgment" criteria.
+## Resources
+- Curriculum: `10_Knowledge/20-Day Curriculum.md`
+- Roadmap: `99_System/Topics.md`
+- Storage: `10_Knowledge/Project - */`
 
-### 3. Note Creation
-- Write a Markdown file in the appropriate `10_Knowledge/Project - X` directory.
-- **Format:**
-    - # Topic Name
-    - ## First Principles (How/Why)
-    - ## Technical Breakdown (The Details)
-    - ## Claude Architect Context (If applicable)
-    - ## Practical Implementation (Examples/Commands)
-
-### 4. Progress Update
-- Use `replace` to mark the checkbox as `[x]` in:
-    - `10_Knowledge/20-Day Curriculum.md`
-    - `99_System/Topics.md`
-- Ensure the Curriculum file links to the new note: `[[New Note Title]]`.
-
-## Guardrails
-- **No Hallucination:** If research is inconclusive, ask for clarification.
-- **Concise Mastery:** Focus on high-signal explanations, not filler.
-- **Safety:** Never execute commands that could compromise the vault without explaining first.
+## Verification (Idempotency)
+- **Check 1:** Exit code of `write_file` or `replace` must be 0.
+- **Check 2:** File existence via `ls`.
+- **Check 3:** Search for the new link in the tracking files via `grep`.
