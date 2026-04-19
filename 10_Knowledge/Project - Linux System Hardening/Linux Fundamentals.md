@@ -1,3 +1,9 @@
+---
+Phase: [[Phase 3 — Operating Systems]]
+Project: [[Project - Linux System Hardening]]
+Prev:  | Next: [[Linux Shell In-Depth]]
+---
+
 # Linux Fundamentals
 
 ## What Linux Actually Is
@@ -6,13 +12,13 @@ Linux is a **kernel**. One program that sits between hardware and everything els
 2.  **Memory:** Allocation and protection.
 3.  **Storage:** Access to the disk.
 
-Every other program (terminal, browser, Python) runs on top and asks the kernel for permission. When using the terminal, you're talking to a **shell** (like bash), which is a program that makes requests to the kernel for you.
+Every other program (terminal, browser, Python) runs on top and asks the kernel for permission. When using the terminal, you're talking to a **[[Linux Shell In-Depth|shell]]** (like [[Linux Shell In-Depth|bash]]), which is a program that makes requests to the kernel for you.
 
 ---
 
 ## Core Concept: Everything is a File
 In Linux, everything is represented as a file. This includes:
--   **Hardware:** Hard d Your vault is now a live, synchronized learning machine. Ready for the next topic, or is there anything else you'd like to adjust?rives, keyboards, USB devices (found in `/dev`).
+-   **Hardware:** Hard drives, keyboards, USB devices (found in `/dev`).
 -   **Processes:** Running programs (found in `/proc`).
 -   **Network:** Sockets and connections.
 

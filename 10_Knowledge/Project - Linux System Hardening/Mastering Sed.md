@@ -1,5 +1,10 @@
+---
+Phase: [[Phase 3 — Operating Systems]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Mastering Grep]] | Next: [[Mastering Awk]]
+---
+
 # Mastering Sed
-**Project: Linux System Hardening**
 
 `sed` (Stream Editor) is a **non-interactive text editor**. Its first principle is "Transform and Edit."
 

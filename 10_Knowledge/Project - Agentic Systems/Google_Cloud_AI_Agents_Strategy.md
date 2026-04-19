@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 8]]
+Project: [[Project - Agentic Systems]]
+Prev: [[GitHub and good skills]] | Next: [[Startup Technical Guide - AI Agents]]
+---
 # 1) Strategic Roadmap (Build, Use, Partner approach)
 
 The strategic roadmap for integrating AI agents offers three main pathways depending on a startup's need for control, available engineering resources, and specific use cases.
@@ -43,4 +48,4 @@ Grounding ensures an agent's responses are accurate, trustworthy, and based on v
 *   **Agentic RAG**: This dynamic approach transforms the agent from a passive recipient of retrieved data into an active problem-solver.
     *   Using frameworks like ReAct, the agent analyzes complex queries, formulates multi-step plans, and iteratively executes search queries to find the best possible information.
     *   A prime example is **Grounding with Google Search**, where Gemini automatically handles the workflow of generating search queries, processing web results, and formulating a final response complete with citations.
-    *   Developers can also use a **"retrieve and re-rank"** approach, which retrieves a large set of candidate documents to ensure high recall, and then uses the LLM or a specialized service to identify only the most relevant documents for high precision.
+    *   Developers can also use a **"retrieve and re-rank"** approach, which retrieves a large set of candidate documents to ensure high recall, and then uses the [[LLM architecture|LLM]] or a specialized service to identify only the most relevant documents for high precision.

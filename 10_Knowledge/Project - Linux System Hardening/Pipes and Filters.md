@@ -1,3 +1,9 @@
+---
+Phase: [[Phase 3 — Operating Systems]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Reading and Writing Files]] | Next: [[Mastering Grep]]
+---
+
 # Pipes and Filters
 
 ## First Principles (How/Why)
@@ -8,7 +14,7 @@ As Douglas McIlroy, the inventor of the Unix pipe, famously put it:
 2.  **Write programs to work together.**
 3.  **Write programs to handle text streams, because that is a universal interface.**
 
-The **Pipe (`|`)** is the "glue" that makes this possible. It connects the `stdout` (Output) of one program directly into the `stdin` (Input) of another. This allows you to build sophisticated data pipelines on the fly.
+The **Pipe (`|`)** is the "digital glue" that makes this possible. It connects the `stdout` (Output) of one program directly into the `stdin` (Input) of another. This allows you to build sophisticated data pipelines on the fly.
 
 ---
 
@@ -19,7 +25,7 @@ A "filter" is a program that reads from `stdin`, performs a transformation, and 
 
 | Tool | Role | Common Use Case |
 | :--- | :--- | :--- |
-| **`grep`** | The **Searcher** | `grep "error"` - Find lines containing a specific pattern. |
+| **`[[Mastering Grep|grep]]`** | The **Searcher** | `grep "error"` - Find lines containing a specific pattern. |
 | **`sort`** | The **Organizer** | `sort -n` - Sort lines alphabetically or numerically. |
 | **`uniq`** | The **Deduplicator** | `uniq -c` - Remove duplicates and count occurrences. |
 | **`wc`** | The **Measurer** | `wc -l` - Count the total number of lines in a stream. |
@@ -33,8 +39,8 @@ You can chain as many tools as needed:
 
 ## Claude Architect Context
 In agentic orchestration, pipes and filters are fundamental for:
--   **Tool Output Processing:** When an agent runs a command (like `ls` or `grep`), the output is often too large. Chaining with `head` or `grep` helps keep the context window clean.
--   **Data Extraction:** Chaining tools like `sed` or `awk` to extract structured values from raw logs for the agent to reason about.
+-   **Tool Output Processing:** When an agent runs a command (like `[[Linux Fundamentals|ls]]` or `[[Mastering Grep|grep]]`), the output is often too large. Chaining with `head` or `grep` helps keep the context window clean.
+-   **Data Extraction:** Chaining tools like `[[Mastering Sed|sed]]` or `[[Mastering Awk|awk]]` to extract structured values from raw logs for the agent to reason about.
 -   **Observability:** Using `tail -f` to monitor agent logs in real-time as it works through a multi-step plan.
 
 ---
@@ -44,7 +50,7 @@ In agentic orchestration, pipes and filters are fundamental for:
 ### Count Unique Errors in a Log
 ```bash
 # Search for errors, sort them to group duplicates, count them, then sort by frequency
-cat system.log | grep "ERROR" | sort | uniq -c | sort -nr
+[[Reading and Writing Files|cat]] system.log | grep "ERROR" | sort | uniq -c | sort -nr
 ```
 
 ### Find the Top 5 Largest Files in a Directory

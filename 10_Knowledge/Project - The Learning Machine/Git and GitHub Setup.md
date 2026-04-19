@@ -1,3 +1,9 @@
+---
+Phase: [[Phase 0 — Learning Infrastructure]]
+Project: [[Project - The Learning Machine]]
+Prev: [[Workflow and Information Capture]] | Next: 
+---
+
 # Git and GitHub Setup (SSH)
 
 This document logs the process of initializing the vault as a Git repository and connecting it to GitHub using SSH for secure, passwordless updates.

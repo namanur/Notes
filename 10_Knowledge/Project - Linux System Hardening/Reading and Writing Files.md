@@ -1,8 +1,13 @@
+---
+Phase: [[Phase 3 — Operating Systems]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Linux Shell In-Depth]] | Next: [[Pipes and Filters]]
+---
+
 # Reading and Writing Files (I/O Redirection)
-**Project: Linux System Hardening**
 
 ## First Principles
-In Linux, **"Everything is a file."** This includes your keyboard (input), your screen (output), and files on disk. I/O Redirection is the "digital plumbing" that allows you to connect these components together.
+In Linux, **"[[Linux Fundamentals|Everything is a file]]."** This includes your keyboard (input), your screen (output), and files on disk. I/O Redirection is the "digital plumbing" that allows you to connect these components together.
 
 ## The Standard Streams (The Big Three)
 Every process you run automatically opens three data streams. To track them, the OS assigns each a **File Descriptor (FD)**:
@@ -17,7 +22,7 @@ Every process you run automatically opens three data streams. To track them, the
 
 ### 1. Writing to Files
 - `>` (**Overwrite**): Sends Stdout to a file, replacing its contents.
-  *Example:* `ls > file_list.txt`
+  *Example:* `[[Linux Fundamentals|ls]] > file_list.txt`
 - `>>` (**Append**): Adds Stdout to the end of a file without erasing it.
   *Example:* `echo "New line" >> log.txt`
 
@@ -32,7 +37,7 @@ Every process you run automatically opens three data streams. To track them, the
   *Example:* `command &> all_output.log`
 
 ## Why This Matters (The Unix Philosophy)
-Redirection is the "glue" of the Unix philosophy: **"Write programs that do one thing and do it well. Write programs to work together."** By redirecting output, you can combine small, simple tools (like `ls`, `grep`, `sort`) into complex, powerful workflows.
+Redirection is the "glue" of the Unix philosophy: **"Write programs that do one thing and do it well. Write programs to work together."** By redirecting output, you can combine small, simple tools (like `ls`, `[[Mastering Grep|grep]]`, `sort`) into complex, powerful workflows.
 
 ## Practical Practice Lab
 *Try these in your terminal:*

@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 8]]
+Project: [[Project - Agentic Systems]]
+Prev: [[Phase 7]] | Next: [[Claude Code]]
+---
 # Skill Systems Overview (Phase 11)
 
 This module focuses on **Programmable Cognition**—the ability to extend AI agents with specialized, reusable capabilities (Skills) and external tool access (MCP).

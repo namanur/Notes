@@ -1,3 +1,9 @@
+---
+Phase: [[Phase 0 — Learning Infrastructure]]
+Project: [[Project - The Learning Machine]]
+Prev: [[Personal Knowledge Management]] | Next: [[Git and GitHub Setup]]
+---
+
 # Workflow and Information Capture
 
 The goal of this workflow is to capture information from external sources (YouTube, Research, LLMs) and process it into the Knowledge layer (Memory) through the Daily Logs (Runtime).

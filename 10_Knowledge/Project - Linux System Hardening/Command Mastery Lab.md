@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 3]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Mastering Awk]] | Next: [[Permissions Audit]]
+---
 # Command Mastery Lab
 **Project: Linux System Hardening**
 
@@ -22,9 +27,9 @@ This is a living ledger of commands explored during this curriculum. Mastery com
 ## 3. The Surgeons (Data Manipulation)
 | Command | What it actually does | Key Flag to Practice |
 | :--- | :--- | :--- |
-| `grep` | Filters text using patterns. | `grep -i "text"` (Case-insensitive search) |
-| `awk` | Scans and processes columns of data. | `awk '{print $1}'` (Print only the first column) |
-| `sed` | Stream editor for finding/replacing text. | `sed 's/old/new/g'` (Global replacement) |
+| `grep` | Filters text using patterns. | `[[Mastering Grep|grep]] -i "text"` (Case-insensitive search) |
+| `awk` | Scans and processes columns of data. | `[[Mastering Awk|awk]] '{print $1}'` (Print only the first column) |
+| `sed` | Stream editor for finding/replacing text. | `[[Mastering Sed|sed]] 's/old/new/g'` (Global replacement) |
 | `sort` | Reorders lines of text. | `sort -n` (Sort numerically instead of alphabetically) |
 | `uniq` | Filters out duplicate lines. | `uniq -c` (Count occurrences of each line) |
 | `wc` | Word, line, and character count. | `wc -l` (Count only the lines) |
@@ -43,7 +48,7 @@ This is a living ledger of commands explored during this curriculum. Mastery com
 
 1. **The Error Hunter:**
    Find all "404" errors in a mock log and count them:
-   `cat access.log | grep "404" | wc -l`
+   `cat access.log | [[Mastering Grep|grep]] "404" | wc -l`
 
 2. **The Clean Sweep:**
    Find every markdown file in your vault and count the total lines of knowledge:

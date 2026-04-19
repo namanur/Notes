@@ -1,3 +1,4 @@
+Universal skills live in /skills — read SKILLS_INDEX.md before starting any structured task.
 # Gemini Agent Configuration
 
 ## Agent Skills Hierarchy

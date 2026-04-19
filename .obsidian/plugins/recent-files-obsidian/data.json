@@ -1,36 +1,176 @@
 {
   "recentFiles": [
     {
+      "basename": "Claude Code",
+      "path": "10_Knowledge/Project - Agentic Systems/Claude Code.md"
+    },
+    {
+      "basename": "AI_Agent_Blueprint_Startup_Guide",
+      "path": "10_Knowledge/Project - Agentic Systems/AI_Agent_Blueprint_Startup_Guide.png"
+    },
+    {
+      "basename": "00_Overview",
+      "path": "10_Knowledge/Project - Agentic Systems/00_Overview.md"
+    },
+    {
+      "basename": "startup_technical_guide_ai_agents_final",
+      "path": "10_Knowledge/Project - Agentic Systems/Resources/startup_technical_guide_ai_agents_final.pdf"
+    },
+    {
+      "basename": "Linux Fundamentals",
+      "path": "10_Knowledge/Project - Linux System Hardening/Linux Fundamentals.md"
+    },
+    {
+      "basename": "20-Day Curriculum",
+      "path": "10_Knowledge/20-Day Curriculum.md"
+    },
+    {
+      "basename": "Linux Shell In-Depth",
+      "path": "10_Knowledge/Project - Linux System Hardening/Linux Shell In-Depth.md"
+    },
+    {
+      "basename": "000_START_HERE",
+      "path": "000_START_HERE.md"
+    },
+    {
+      "basename": "SYLLABUS",
+      "path": "SYLLABUS.md"
+    },
+    {
+      "basename": "31-03-2026",
+      "path": "00_daily_logs/31-03-2026.md"
+    },
+    {
       "basename": "GEMINI",
       "path": "GEMINI.md"
     },
     {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
+      "basename": "VAULT_INDEX",
+      "path": "99_System/VAULT_INDEX.md"
+    },
+    {
+      "basename": "CodeRabbit_Audit_Phase3",
+      "path": "08_Work/Brainback/logs/CodeRabbit_Audit_Phase3.md"
+    },
+    {
+      "basename": "CodeRabbit_Audit_Phase1",
+      "path": "08_Work/Brainback/logs/CodeRabbit_Audit_Phase1.md"
+    },
+    {
+      "basename": "GitHub and good skills",
+      "path": "10_Knowledge/Project - Agentic Systems/GitHub and good skills.md"
+    },
+    {
+      "basename": "Claude Exam Dashboard",
+      "path": "10_Knowledge/Certifications/Claude Exam Dashboard.md"
+    },
+    {
+      "basename": "Calude ecam prep",
+      "path": "10_Knowledge/Certifications/Calude ecam prep.pdf"
+    },
+    {
+      "basename": "13-03-2026",
+      "path": "00_daily_logs/13-03-2026.md"
+    },
+    {
+      "basename": "SKILLS_INDEX",
+      "path": "skills/SKILLS_INDEX.md"
+    },
+    {
+      "basename": "session_close",
+      "path": "skills/session_close.md"
+    },
+    {
+      "basename": "daily_log",
+      "path": "skills/daily_log.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
+      "basename": "Google_Cloud_AI_Agents_Strategy",
+      "path": "10_Knowledge/Project - Agentic Systems/Google_Cloud_AI_Agents_Strategy.md"
+    },
+    {
+      "basename": "Gemini CLI",
+      "path": "10_Knowledge/Project - Agentic Systems/Gemini CLI.md"
+    },
+    {
+      "basename": "Topics",
+      "path": "99_System/Topics.md"
+    },
+    {
+      "basename": "sync_log",
+      "path": "99_System/Archive/Logs/sync_log.md"
+    },
+    {
+      "basename": "Aider",
+      "path": "99_System/agents/Aider.md"
+    },
+    {
+      "basename": "Workflow and Information Capture",
+      "path": "10_Knowledge/Project - The Learning Machine/Workflow and Information Capture.md"
+    },
+    {
+      "basename": "Personal Knowledge Management",
+      "path": "10_Knowledge/Project - The Learning Machine/Personal Knowledge Management.md"
+    },
+    {
+      "basename": "Git and GitHub Setup",
+      "path": "10_Knowledge/Project - The Learning Machine/Git and GitHub Setup.md"
+    },
+    {
+      "basename": "Reading and Writing Files",
+      "path": "10_Knowledge/Project - Linux System Hardening/Reading and Writing Files.md"
+    },
+    {
+      "basename": "Pipes and Filters",
+      "path": "10_Knowledge/Project - Linux System Hardening/Pipes and Filters.md"
+    },
+    {
+      "basename": "Mastering Sed",
+      "path": "10_Knowledge/Project - Linux System Hardening/Mastering Sed.md"
+    },
+    {
+      "basename": "Mastering Grep",
+      "path": "10_Knowledge/Project - Linux System Hardening/Mastering Grep.md"
+    },
+    {
+      "basename": "Mastering Awk",
+      "path": "10_Knowledge/Project - Linux System Hardening/Mastering Awk.md"
+    },
+    {
       "basename": "Command Mastery Lab",
       "path": "10_Knowledge/Project - Linux System Hardening/Command Mastery Lab.md"
+    },
+    {
+      "basename": "Startup Technical Guide - AI Agents",
+      "path": "10_Knowledge/Project - Agentic Systems/Startup Technical Guide - AI Agents.md"
+    },
+    {
+      "basename": "Codex",
+      "path": "10_Knowledge/Project - Agentic Systems/Codex.md"
     },
     {
       "basename": "20-03-2026",
       "path": "00_daily_logs/20-03-2026.md"
     },
     {
+      "basename": "audit_log",
+      "path": "00_daily_logs/audit_log.md"
+    },
+    {
+      "basename": "Daily log template",
+      "path": "00_daily_logs/Daily log template.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
       "basename": "index.html",
       "path": "index.html.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "Operating Systems.md"
-    },
-    {
-      "basename": "GitHub and good skills",
-      "path": "10_Knowledge/Project - Agentic Systems/GitHub and good skills.md"
     },
     {
       "basename": "Setup Log",
@@ -45,60 +185,16 @@
       "path": "08_Work/Brainback/Brainback Mind Map.md"
     },
     {
-      "basename": "Linux Fundamentals",
-      "path": "10_Knowledge/Project - Linux System Hardening/Linux Fundamentals.md"
-    },
-    {
       "basename": "sync_log",
       "path": "00_daily_logs/sync_log.md"
-    },
-    {
-      "basename": "Daily log template",
-      "path": "00_daily_logs/Daily log template.md"
-    },
-    {
-      "basename": "Pipes and Filters",
-      "path": "10_Knowledge/Project - Linux System Hardening/Pipes and Filters.md"
-    },
-    {
-      "basename": "Reading and Writing Files",
-      "path": "10_Knowledge/Project - Linux System Hardening/Reading and Writing Files.md"
     },
     {
       "basename": "18-03-2026",
       "path": "00_daily_logs/18-03-2026.md"
     },
     {
-      "basename": "20-Day Curriculum",
-      "path": "10_Knowledge/20-Day Curriculum.md"
-    },
-    {
       "basename": "Claude Exam Dashboard",
       "path": "10_Knowledge/Claude Exam Dashboard.md"
-    },
-    {
-      "basename": "Topics",
-      "path": "99_System/Topics.md"
-    },
-    {
-      "basename": "Calude ecam prep",
-      "path": "10_Knowledge/Calude ecam prep.pdf"
-    },
-    {
-      "basename": "13-03-2026",
-      "path": "00_daily_logs/13-03-2026.md"
-    },
-    {
-      "basename": "Codex",
-      "path": "99_System/agents/Codex.md"
-    },
-    {
-      "basename": "Claude",
-      "path": "99_System/agents/Claude.md"
-    },
-    {
-      "basename": "here we go",
-      "path": "99_System/here we go.md"
     }
   ],
   "omittedPaths": [],

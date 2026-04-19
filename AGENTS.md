@@ -1,4 +1,10 @@
-# Repository Guidelines
+Universal skills live in /skills — read SKILLS_INDEX.md before starting any structured task.
+## Repository Guidelines
+
+## Wiki Integration Mandate
+- **Distillation**: Every significant technical synthesis in `10_Knowledge/` must be cross-referenced or distilled into a permanent entity/concept page in `Documents/llm-wiki/`.
+- **Compounding**: Prioritize updating existing wiki pages over creating duplicate notes in the vault.
+- **Verification**: Use the `wiki_maintainer` skill to automate the ingestion and interlinking process.
 
 ## Project Structure & Module Organization
 This repository is an Obsidian vault for personal knowledge management, not a compiled software project. Content is organized by role:

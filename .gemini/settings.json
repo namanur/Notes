@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "openspace": {
+      "command": "ssh",
+      "args": [
+        "nandan@192.168.31.250",
+        "export PYTHONPATH=/home/nandan/OpenSpace && /home/nandan/OpenSpace/venv/bin/python3 /home/nandan/OpenSpace/openspace/mcp_server.py"
+      ],
+      "trust": true
+    }
+  }
+}

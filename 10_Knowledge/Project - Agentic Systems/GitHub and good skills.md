@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 8]]
+Project: [[Project - Agentic Systems]]
+Prev: [[Codex]] | Next: [[Google_Cloud_AI_Agents_Strategy]]
+---
 # GitHub and Good Skills (Phase 11)
 
 Combining **Git** with **Skill Systems** is a powerful pattern for creating reproducible, expert-driven agents.

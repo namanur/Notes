@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 3]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Mastering Sed]] | Next: [[Command Mastery Lab]]
+---
 # Mastering Awk
 **Project: Linux System Hardening**
 
@@ -47,4 +52,4 @@ awk '{printf "%-10s | %s\n", $1, $2}' data.txt
 ```
 
 ## Claude Architect Context
-Awk is the best tool for **data extraction from JSON or CSV** when more complex logic is needed than simple grep. It is the bridge between a simple shell command and a full Python script.
+Awk is the best tool for **data extraction from JSON or CSV** when more complex logic is needed than simple [[Mastering Grep|grep]]. It is the bridge between a simple shell command and a full Python script.

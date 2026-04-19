@@ -1,9 +1,15 @@
+---
+Phase: [[Phase 0 — Learning Infrastructure]]
+Project: [[Project - The Learning Machine]]
+Prev:  | Next: [[Workflow and Information Capture]]
+---
+
 # Personal Knowledge Management (PKM)
 
 Personal Knowledge Management is the practice of capturing, organizing, and retrieving information to turn it into personal knowledge. In this vault, PKM is the "infrastructure" that supports all future learning phases.
 
 ## 1. Markdown: The Language of the Vault
-Markdown is a lightweight markup language with plain-text-formatting syntax. It ensures that notes are future-proof, human-readable, and easily parsed by tools like Obsidian and GitHub.
+Markdown is a lightweight markup language with plain-text-formatting syntax. It ensures that notes are future-proof, human-readable, and easily parsed by tools like Obsidian and [[Git and GitHub Setup|GitHub]].
 
 ### Core Syntax
 - **Headers**: Use `#` for H1, `##` for H2, etc.

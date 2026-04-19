@@ -17,6 +17,7 @@
 - [x] Pipes and Filters (grep, wc, sort, uniq)
 - [ ] Permissions Audit (rwx, chmod, chown)
 - [ ] Shell Scripting (Automated logging scripts)
+- [ ] Modern CLI Tools (zoxide, rg, fd, tmux, gh, doppler, pass, jq, stow, fzf)
 - [x] Automated Daily Audit (`audit_todos.py` + Cron)
 - **Output:** A hardened Fedora environment with automated maintenance loops.
 
@@ -41,10 +42,12 @@
 *Target: Building cognitive tools and autonomous workflows.*
 - [x] Gemini CLI Skills
 - [x] GWS (Google Workspace CLI)
+- [ ] [[Startup Technical Guide - AI Agents]] (Researching...)
 - [ ] LLM Architecture & Tokenization
 - [ ] Vector Databases & Retrieval Systems
 - [ ] Planning Loops & Tool Use
 - [ ] MCP Server Implementation
+- [ ] OpenSpace MCP Bridge (Isolated framework integration)
 - **Output:** Custom AI agents and skills capable of autonomous vault management.
 
 ---

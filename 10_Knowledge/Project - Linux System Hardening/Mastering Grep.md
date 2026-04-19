@@ -1,5 +1,10 @@
+---
+Phase: [[Phase 3 — Operating Systems]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Pipes and Filters]] | Next: [[Mastering Sed]]
+---
+
 # Mastering Grep
-**Project: Linux System Hardening**
 
 `grep` (Global Regular Expression Print) is the primary tool for **pattern matching**. Its first principle is "Search and Extract."
 
@@ -33,7 +38,7 @@ grep -vE "^#|^$" config.conf
 *Note: `^#` means starts with #, `^$` means empty line.*
 
 ### 3. Finding Files, Not Lines
-Find every file in your vault that mentions "Claude":
+Find every file in your vault that mentions "[[Claude Code|Claude]]":
 ```bash
 grep -rl "Claude" .
 ```

@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 8]]
+Project: [[Project - Agentic Systems]]
+Prev: [[Claude Code]] | Next: [[Codex]]
+---
 # Gemini CLI (Agent Skills)
 
 Gemini CLI uses a standard called **Agent Skills** (AgentSkills.io) to add specialized expertise to the model on-the-fly.

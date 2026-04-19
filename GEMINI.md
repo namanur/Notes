@@ -1,4 +1,10 @@
+Universal skills live in /skills — read SKILLS_INDEX.md before starting any structured task.
 # GEMINI.md - Notes Vault Instructional Context
+
+## Workspace Configuration
+- **Vault:** `/home/naman/Documents/Notes/` (This directory)
+- **Downloads:** `/home/naman/Downloads/`
+- **Rule:** Whenever the user says "go to my vault", read this file (`GEMINI.md`) for the ground truth context.
 
 ## Directory Overview
 This directory is an **Obsidian Vault** and **GitHub Repository** designed for tracking a long-term "Full Learning Curve" from computational basics to autonomous systems. It functions as a Personal Knowledge Management (PKM) system where learning is documented, indexed, and linked across multiple layers: runtime (daily logs), memory (knowledge base), and architecture (systems meta-layer).
@@ -21,6 +27,11 @@ The vault is organized into functional layers:
 - **`99_System/Topics.md`**: The active Learning Roadmap (Index) with checklists for tracking progress across phases.
 - **`Starting.md`**: Historical context and the origin of the current vault structure (Fedora migration).
 - **`Daily log template.md`**: The standardized structure for daily check-ins.
+
+## Architectural Boundaries
+- **OpenSpace Repository:** Active development/experimentation.
+- **Deployment Target:** **Dell Ubuntu Server** (`192.168.31.250`) as the primary environment for the OpenSpace MCP server.
+- **Resource Note:** Monitor 4GB RAM usage closely due to co-existence with ERPNext and Samba.
 
 ## Usage and Conventions
 - **Renaming:** Obsidian is configured to `alwaysUpdateLinks: true`. Renaming a file will automatically update all internal links.

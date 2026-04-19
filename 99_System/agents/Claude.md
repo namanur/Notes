@@ -1,3 +1,4 @@
+Universal skills live in /skills — read SKILLS_INDEX.md before starting any structured task.
 # Claude Agent Configuration
 
 ## Skills Location

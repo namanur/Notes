@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 8]]
+Project: [[Project - Agentic Systems]]
+Prev: [[Gemini CLI]] | Next: [[GitHub and good skills]]
+---
 # Codex CLI (OpenAI)
 
 Codex CLI is an open-source, terminal-native AI coding agent developed by OpenAI. It allows you to run a multimodal coding assistant directly in your terminal, with deep access to your local files and shell.

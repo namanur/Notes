@@ -106,4 +106,30 @@
     - **Final Reflection:** Update Obsidian with "What I understand now."
 
 ---
-*Created on 20-03-2026 for Naman's Learning Vault.*
+
+## Phase 5 — Cognitive Systems & Agents (Days 21–25+)
+*Target: Building cognitive tools and autonomous workflows.*
+
+- [ ] **Day 21 — AI Agent Foundations**
+    - **Concept:** Agentic architectures, memory, and planning loops.
+    - **Build:** [[Startup Technical Guide - AI Agents]] (Chapter 1 & 2).
+    - **Links:** [[Project - Agentic Systems]], [[LLM Architecture & Tokenization]]
+- [ ] **Day 22 — Tool Use & MCP**
+    - **Concept:** Model Context Protocol (MCP) and digital interaction.
+    - **Build:** [[Startup Technical Guide - AI Agents]] (Chapter 3).
+    - **Links:** [[MCP and Tool Ecosystems]]
+- [ ] **Day 23 — Autonomous Workflows**
+    - **Concept:** Designing self-healing systems and task decomposition.
+    - **Build:** [[Startup Technical Guide - AI Agents]] (Chapter 4).
+    - **Links:** [[Automation#Advanced]]
+- [ ] **Day 24 — LLM Architecture Deep Dive**
+    - **Concept:** Tokens, weights, and transformer models.
+    - **Build:** Summarize the core differences between Gemini, Claude, and GPT.
+    - **Links:** [[AI Systems#Architecture]]
+- [ ] **Day 25 — The Universal Interface**
+    - **Concept:** Building skills that work across any LLM (Universal skills).
+    - **Build:** Create a "Universal Research Skill" for your vault.
+    - **Links:** [[Project - Agentic Systems]]
+
+---
+*Last updated on 2026-03-27. Added Phase 5 for Agentic Systems.*

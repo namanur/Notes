@@ -1,3 +1,8 @@
+---
+Phase: [[Phase 8]]
+Project: [[Project - Agentic Systems]]
+Prev: [[00_Overview]] | Next: [[Gemini CLI]]
+---
 # Claude Code (Skills & MCP)
 
 Claude Code v2 uses a two-pronged approach to extension: **Skills** for procedural logic and **Model Context Protocol (MCP)** for external data/tools.

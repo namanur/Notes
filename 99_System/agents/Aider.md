@@ -1,3 +1,4 @@
+Universal skills live in /skills — read SKILLS_INDEX.md before starting any structured task.
 # Aider Agent Configuration
 
 ## Configuration File Search Order

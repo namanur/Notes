@@ -1,5 +1,10 @@
+---
+Phase: [[Phase 3 — Operating Systems]]
+Project: [[Project - Linux System Hardening]]
+Prev: [[Linux Fundamentals]] | Next: [[Reading and Writing Files]]
+---
+
 # Linux Shell In-Depth
-**Project: Linux System Hardening**
 
 ## First Principles
 The Linux shell is not just a command prompt; it is a **programming environment** and a **resource orchestrator**. It follows the Unix philosophy of "doing one thing and doing it well," allowing complex operations through the composition of simple tools.
@@ -19,9 +24,9 @@ Every process in Linux starts with three standard data streams:
 - `&>` : Redirect both Stdout and Stderr to a file.
 - `<` : Read Stdin from a file.
 
-### 2. The Power of Pipes (`|`)
+### 2. The Power of [[Pipes and Filters|Pipes]] (`|`)
 Pipes connect the **Stdout** of one command to the **Stdin** of another, creating a "data pipeline."
-*Example:* `cat access.log | grep "404" | wc -l`
+*Example:* `[[Reading and Writing Files|cat]] access.log | [[Mastering Grep|grep]] "404" | wc -l`
 1. `cat` reads the file.
 2. `grep` filters for "404".
 3. `wc -l` counts the lines.
@@ -35,9 +40,9 @@ Pipes connect the **Stdout** of one command to the **Stdin** of another, creatin
 
 | Command | Purpose | Example |
 | :--- | :--- | :--- |
-| `grep` | Global Regular Expression Print | `grep "error" sys.log` |
-| `awk` | Pattern scanning and processing | `awk '{print $1}' data.txt` |
-| `sed` | Stream Editor (find/replace) | `sed 's/old/new/g' file.txt` |
+| `[[Mastering Grep|grep]]` | Global Regular Expression Print | `grep "error" sys.log` |
+| `[[Mastering Awk|awk]]` | Pattern scanning and processing | `awk '{print $1}' data.txt` |
+| `[[Mastering Sed|sed]]` | Stream Editor (find/replace) | `sed 's/old/new/g' file.txt` |
 | `xargs` | Build and execute commands from Stdin | `find . -name "*.log" | xargs rm` |
 | `tee` | Read from Stdin and write to Stdout AND files | `ls | tee list.txt` |
 
@@ -68,4 +73,3 @@ When designing autonomous systems, the shell is the **glue code**. Reliability c
 1. Always quoting variables: `"$VARIABLE"` (prevents word-splitting errors).
 2. Using absolute paths in scripts.
 3. Checking exit codes (`$?`) to handle errors gracefully.
-
