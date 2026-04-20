@@ -14,5 +14,5 @@
 
 ## Quick Links
 - [[SYLLABUS]]: Full learning roadmap and progress.
-- [[99_System/VAULT_INDEX|VAULT_INDEX]]: List of all notes in the vault.
+- [[VAULT_INDEX|VAULT_INDEX]]: List of all notes in the vault.
 - [[00_daily_logs/20-03-2026|Latest Daily Log]]

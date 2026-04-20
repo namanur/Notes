@@ -1484,3 +1484,318 @@ Skipping 08_Work/Brainback/logs (no parent folder ID)
 Skipping skills (no parent folder ID)
 Skipping completions (no parent folder ID)
 --- Sync Completed: 2026-04-18 21:00:00.964435 ---
+--- Starting Vault Sync: 2026-04-19 10:00:00.119406 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "08_Work", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 08_Work
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "completions", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: completions
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: SYLLABUS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/SYLLABUS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Certifications (no parent folder ID)
+Skipping 08_Work (no parent folder ID)
+Skipping 08_Work/Brainback (no parent folder ID)
+Skipping 08_Work/Brainback/logs (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping completions (no parent folder ID)
+--- Sync Completed: 2026-04-19 10:00:00.126334 ---
+--- Starting Vault Sync: 2026-04-19 12:00:00.302178 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "08_Work", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 08_Work
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "completions", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: completions
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: SYLLABUS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/SYLLABUS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Certifications (no parent folder ID)
+Skipping 08_Work (no parent folder ID)
+Skipping 08_Work/Brainback (no parent folder ID)
+Skipping 08_Work/Brainback/logs (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping completions (no parent folder ID)
+--- Sync Completed: 2026-04-19 12:00:00.310679 ---
+--- Starting Vault Sync: 2026-04-19 20:00:00.602957 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "08_Work", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 08_Work
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "completions", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: completions
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: SYLLABUS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/SYLLABUS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Certifications (no parent folder ID)
+Skipping 08_Work (no parent folder ID)
+Skipping 08_Work/Brainback (no parent folder ID)
+Skipping 08_Work/Brainback/logs (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping completions (no parent folder ID)
+--- Sync Completed: 2026-04-19 20:00:00.607033 ---
+--- Starting Vault Sync: 2026-04-20 10:00:00.385929 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "08_Work", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 08_Work
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "completions", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: completions
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: SYLLABUS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/SYLLABUS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Certifications (no parent folder ID)
+Skipping 10_Knowledge/Project - Harness Engineering (no parent folder ID)
+Skipping 08_Work (no parent folder ID)
+Skipping 08_Work/Brainback (no parent folder ID)
+Skipping 08_Work/Brainback/logs (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping completions (no parent folder ID)
+--- Sync Completed: 2026-04-20 10:00:00.390933 ---
+--- Starting Vault Sync: 2026-04-20 11:00:00.688661 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "projects", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: projects
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: ROADMAP.md
+Error running gws command drive +upload /home/naman/Documents/Notes/ROADMAP.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: Untitled.md
+Error running gws command drive +upload /home/naman/Documents/Notes/Untitled.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: VAULT_INDEX.md
+Error running gws command drive +upload /home/naman/Documents/Notes/VAULT_INDEX.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: control center.base
+Error running gws command drive +upload /home/naman/Documents/Notes/control center.base --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Project - Harness Engineering (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping projects (no parent folder ID)
+Skipping projects/peak-protocol (no parent folder ID)
+--- Sync Completed: 2026-04-20 11:00:00.692571 ---
+--- Starting Vault Sync: 2026-04-20 19:00:00.653814 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "projects", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: projects
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: ROADMAP.md
+Error running gws command drive +upload /home/naman/Documents/Notes/ROADMAP.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: Untitled.md
+Error running gws command drive +upload /home/naman/Documents/Notes/Untitled.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: VAULT_INDEX.md
+Error running gws command drive +upload /home/naman/Documents/Notes/VAULT_INDEX.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: control center.base
+Error running gws command drive +upload /home/naman/Documents/Notes/control center.base --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Project - Harness Engineering (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping projects (no parent folder ID)
+Skipping projects/peak-protocol (no parent folder ID)
+--- Sync Completed: 2026-04-20 19:00:00.657587 ---
+--- Starting Vault Sync: 2026-04-20 20:00:00.778278 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "projects", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: projects
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: ROADMAP.md
+Error running gws command drive +upload /home/naman/Documents/Notes/ROADMAP.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: Untitled.md
+Error running gws command drive +upload /home/naman/Documents/Notes/Untitled.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: VAULT_INDEX.md
+Error running gws command drive +upload /home/naman/Documents/Notes/VAULT_INDEX.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: control center.base
+Error running gws command drive +upload /home/naman/Documents/Notes/control center.base --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/Project - The Learning Machine (no parent folder ID)
+Skipping 10_Knowledge/Project - Linux System Hardening (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems (no parent folder ID)
+Skipping 10_Knowledge/Project - Agentic Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/Project - Harness Engineering (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping projects (no parent folder ID)
+Skipping projects/peak-protocol (no parent folder ID)
+--- Sync Completed: 2026-04-20 20:00:00.782477 ---

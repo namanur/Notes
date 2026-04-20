@@ -12,11 +12,11 @@ In Linux, **"[[Linux Fundamentals|Everything is a file]]."** This includes your 
 ## The Standard Streams (The Big Three)
 Every process you run automatically opens three data streams. To track them, the OS assigns each a **File Descriptor (FD)**:
 
-| Name | File Descriptor | Default Device | Purpose |
-| :--- | :--- | :--- | :--- |
-| **Stdin** | `0` | Keyboard | Where a command reads its data from. |
-| **Stdout** | `1` | Screen | Where a command sends its successful output. |
-| **Stderr** | `2` | Screen | Where a command sends its error messages. |
+| Name       | File Descriptor | Default Device | Purpose                                      |
+| :--------- | :-------------- | :------------- | :------------------------------------------- |
+| **Stdin**  | `0`             | Keyboard       | Where a command reads its data from.         |
+| **Stdout** | `1`             | Screen         | Where a command sends its successful output. |
+| **Stderr** | `2`             | Screen         | Where a command sends its error messages.    |
 
 ## The Plumbing Tools (Redirection Operators)
 

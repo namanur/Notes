@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "ROADMAP",
+      "path": "ROADMAP.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Reading and Writing Files",
+      "path": "10_Knowledge/Project - Linux System Hardening/Reading and Writing Files.md"
+    },
+    {
+      "basename": "20-04-2026",
+      "path": "00_daily_logs/20-04-2026.md"
+    },
+    {
+      "basename": "Linux Fundamentals",
+      "path": "10_Knowledge/Project - Linux System Hardening/Linux Fundamentals.md"
+    },
+    {
+      "basename": "Git and GitHub Setup",
+      "path": "10_Knowledge/Project - The Learning Machine/Git and GitHub Setup.md"
+    },
+    {
+      "basename": "VAULT_INDEX",
+      "path": "VAULT_INDEX.md"
+    },
+    {
+      "basename": "000_START_HERE",
+      "path": "000_START_HERE.md"
+    },
+    {
+      "basename": "control center",
+      "path": "control center.base"
+    },
+    {
+      "basename": "00_Overview",
+      "path": "10_Knowledge/Project - Agentic Systems/00_Overview.md"
+    },
+    {
+      "basename": "here we go",
+      "path": "99_System/here we go.md"
+    },
+    {
+      "basename": "01_SQLite_State_Management",
+      "path": "10_Knowledge/Project - Harness Engineering/01_SQLite_State_Management.md"
+    },
+    {
+      "basename": "GEMINI",
+      "path": "GEMINI.md"
+    },
+    {
+      "basename": "Topics",
+      "path": "99_System/Topics.md"
+    },
+    {
+      "basename": "SYLLABUS",
+      "path": "99_System/SYLLABUS.md"
+    },
+    {
+      "basename": "03_MCP_Tool_Construction",
+      "path": "10_Knowledge/Project - Harness Engineering/03_MCP_Tool_Construction.md"
+    },
+    {
       "basename": "Claude Code",
       "path": "10_Knowledge/Project - Agentic Systems/Claude Code.md"
     },
@@ -9,64 +73,20 @@
       "path": "10_Knowledge/Project - Agentic Systems/AI_Agent_Blueprint_Startup_Guide.png"
     },
     {
-      "basename": "00_Overview",
-      "path": "10_Knowledge/Project - Agentic Systems/00_Overview.md"
-    },
-    {
       "basename": "startup_technical_guide_ai_agents_final",
       "path": "10_Knowledge/Project - Agentic Systems/Resources/startup_technical_guide_ai_agents_final.pdf"
-    },
-    {
-      "basename": "Linux Fundamentals",
-      "path": "10_Knowledge/Project - Linux System Hardening/Linux Fundamentals.md"
-    },
-    {
-      "basename": "20-Day Curriculum",
-      "path": "10_Knowledge/20-Day Curriculum.md"
     },
     {
       "basename": "Linux Shell In-Depth",
       "path": "10_Knowledge/Project - Linux System Hardening/Linux Shell In-Depth.md"
     },
     {
-      "basename": "000_START_HERE",
-      "path": "000_START_HERE.md"
-    },
-    {
-      "basename": "SYLLABUS",
-      "path": "SYLLABUS.md"
-    },
-    {
       "basename": "31-03-2026",
       "path": "00_daily_logs/31-03-2026.md"
     },
     {
-      "basename": "GEMINI",
-      "path": "GEMINI.md"
-    },
-    {
-      "basename": "VAULT_INDEX",
-      "path": "99_System/VAULT_INDEX.md"
-    },
-    {
-      "basename": "CodeRabbit_Audit_Phase3",
-      "path": "08_Work/Brainback/logs/CodeRabbit_Audit_Phase3.md"
-    },
-    {
-      "basename": "CodeRabbit_Audit_Phase1",
-      "path": "08_Work/Brainback/logs/CodeRabbit_Audit_Phase1.md"
-    },
-    {
       "basename": "GitHub and good skills",
       "path": "10_Knowledge/Project - Agentic Systems/GitHub and good skills.md"
-    },
-    {
-      "basename": "Claude Exam Dashboard",
-      "path": "10_Knowledge/Certifications/Claude Exam Dashboard.md"
-    },
-    {
-      "basename": "Calude ecam prep",
-      "path": "10_Knowledge/Certifications/Calude ecam prep.pdf"
     },
     {
       "basename": "13-03-2026",
@@ -85,20 +105,12 @@
       "path": "skills/daily_log.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "Google_Cloud_AI_Agents_Strategy",
       "path": "10_Knowledge/Project - Agentic Systems/Google_Cloud_AI_Agents_Strategy.md"
     },
     {
       "basename": "Gemini CLI",
       "path": "10_Knowledge/Project - Agentic Systems/Gemini CLI.md"
-    },
-    {
-      "basename": "Topics",
-      "path": "99_System/Topics.md"
     },
     {
       "basename": "sync_log",
@@ -115,14 +127,6 @@
     {
       "basename": "Personal Knowledge Management",
       "path": "10_Knowledge/Project - The Learning Machine/Personal Knowledge Management.md"
-    },
-    {
-      "basename": "Git and GitHub Setup",
-      "path": "10_Knowledge/Project - The Learning Machine/Git and GitHub Setup.md"
-    },
-    {
-      "basename": "Reading and Writing Files",
-      "path": "10_Knowledge/Project - Linux System Hardening/Reading and Writing Files.md"
     },
     {
       "basename": "Pipes and Filters",
@@ -173,28 +177,12 @@
       "path": "index.html.md"
     },
     {
-      "basename": "Setup Log",
-      "path": "08_Work/Brainback/logs/Setup Log.md"
-    },
-    {
-      "basename": "Project Overview",
-      "path": "08_Work/Brainback/Project Overview.md"
-    },
-    {
-      "basename": "Brainback Mind Map",
-      "path": "08_Work/Brainback/Brainback Mind Map.md"
-    },
-    {
       "basename": "sync_log",
       "path": "00_daily_logs/sync_log.md"
     },
     {
       "basename": "18-03-2026",
       "path": "00_daily_logs/18-03-2026.md"
-    },
-    {
-      "basename": "Claude Exam Dashboard",
-      "path": "10_Knowledge/Claude Exam Dashboard.md"
     }
   ],
   "omittedPaths": [],
