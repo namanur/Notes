@@ -1,2 +1,9 @@
-.obsidian/workspace.json
-.obsidian/plugins/terminal/data.json
+# Obsidian configuration and extensions
+.obsidian/
+
+# Obsidian trash folder
+.trash/
+
+# OS generated files
+.DS_Store
+Thumbs.db

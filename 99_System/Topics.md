@@ -15,18 +15,19 @@
 - [x] Filesystem Mapping (inodes, paths)
 - [x] Stream Manipulation (Stdin/Stdout/Stderr, Redirection)
 - [x] Pipes and Filters (grep, wc, sort, uniq)
-- [ ] Permissions Audit (rwx, chmod, chown)
-- [ ] Shell Scripting (Automated logging scripts)
+- [x] Permissions Audit (rwx, chmod, chown) [[Permissions_Ownership]]
+- [x] Shell Scripting (Automated logging scripts) [[Shell_Scripting_Basics]]
 - [ ] Modern CLI Tools (zoxide, rg, fd, tmux, gh, doppler, pass, jq, stow, fzf)
 - [x] Automated Daily Audit (`audit_todos.py` + Cron)
 - **Output:** A hardened Fedora environment with automated maintenance loops.
 
-### [ ] Project: Professional History Tracking (Git)
+### [/] Project: Professional History Tracking (Git)
 *Target: Version control for the knowledge base.*
-- [ ] Git Init & Configuration
-- [ ] Commit Strategy & Diff Analysis
-- [ ] Branching & Conflict Resolution
-- [ ] GitHub Remote Synchronization
+- [x] Git Internals (DAG & Snapshots) [[Git_Internals_DAG]]
+- [x] Git Init & Configuration
+- [x] Commit Strategy & Diff Analysis [[Git_History_Diffs]]
+- [x] Branching & Conflict Resolution [[Git_Branching_Merging]]
+- [x] GitHub Remote Synchronization [[GitHub_Remotes]]
 - **Output:** A private GitHub repository tracking every step of the learning curve.
 
 ### [ ] Project: Connected Systems (Networking/APIs)

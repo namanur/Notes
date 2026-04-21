@@ -10,3 +10,7 @@ This skills system provides standardized procedures for all AI agents operating 
 | Syllabus Builder | Update the learning trajectory and progress | [[syllabus_builder]] |
 | Session Close | Close session, log activity, and clean up (/end) | [[session_close]] |
 | Wiki Maintainer | Compile insights from notes into the interlinked LLM Wiki | [[wiki_maintainer]] |
+| Agent Activity | Log cross-agent session updates and context | [[agent_activity]] |
+| Web Browse | Retrieve raw content of web pages from a given URL | [[web_browse]] |
+
+| Study Builder | Build execution-focused study notes | [[study_material_builder]] |

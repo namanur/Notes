@@ -9,16 +9,16 @@ The core objective of this vault is to support the development of **Peak Protoco
 ## 🏗️ Vault Architecture
 The vault is organized into three functional layers, analogous to computer architecture:
 1.  **`00_daily_logs/` (Runtime):** Daily session tracking and fleeting notes.
-2.  **`10_Knowledge/` (Memory):** Permanent notes organized by learning phases and projects.
+2.  **`10_Knowledge/` (Memory):** Permanent notes organized by learning phases.
 3.  **`99_System/` (Architecture):** The meta-layer defining the roadmap, indexing, and agent skills.
 
 ## 🗺️ The 40-Day Roadmap
 We are currently executing a structured 40-day curriculum:
-- **Phase 1: Infrastructure & Shell Primitives** (Linux, Pipes, Git)
-- **Phase 2: Architecture & Networking** (CPU, TCP/IP, HTTP, JSON)
-- **Phase 3: Data & Middleware** (SQLite, Python CLI Wrappers, Docker)
-- **Phase 4: Agentic Systems** (MCP Protocol, LLM Architecture)
-- **Phase 5: Autonomous Workflows** (Skill Authoring, Multi-Agent Loops)
+- **Phase 1: Infrastructure & Shell Primitives**
+- **Phase 2: Architecture & Networking**
+- **Phase 3: Data & Middleware**
+- **Phase 4: Agentic Systems**
+- **Phase 5: Autonomous Workflows**
 
 ## 🛠️ Tech Stack & Methodology
 - **Infrastructure:** Fedora Linux, Dell Ubuntu Server (`192.168.31.250`)

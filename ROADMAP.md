@@ -2,130 +2,129 @@
 
 **The 40-Day Execution Plan for Computational Mastery and Autonomous Systems**
 
-This document merges the tactical daily execution model with the comprehensive "Full Learning Curve" syllabus. It replaces both the old `SYLLABUS.md` and the `20-Day Curriculum.md`.
+*Updated: 21-04-2026 - Terminal track, SQL track, Bash Scripting course*
+
+---
+
+## 🎯 TRACKS (Learn in Parallel)
+
+| Track | Focus | Current Day |
+|-------|-------|-------------|
+| **A: Linux Basics** | Permissions, Shell, Git | Day 4 ⭐ |
+| **B: Terminal Mastery** | tmux, bash shortcuts, find, grep | Starting |
+| **C: Bash Scripting** | Full scripting course | Video added |
+| **D: Agent & MCP** | MCP Tools, Integration | Days 25-30 |
+| **E: Database** | SQL, SQLite, PostgreSQL | Day 20a |
+| **F: Skills & Automation** | Skills, CI/CD | Days 31-40 |
 
 ---
 
 ## Phase 1 — Infrastructure & Shell Primitives (Days 1–10)
-*Target: Mastery of the local environment and version control.*
-**Project: [[Project - The Learning Machine]] & [[Project - Linux System Hardening]]**
 
-- [x] **Day 1 — How Linux sees the world**
-    - **Build:** Map the local system.
-    - **Links:** [[Linux Fundamentals]], [[Personal Knowledge Management]]
-- [x] **Day 2 — Reading and writing files**
-    - **Build:** Data manipulation with `echo`, `cat`, `head`, `tail`.
-    - **Links:** [[Reading and Writing Files]], [[Workflow and Information Capture]]
-- [x] **Day 3 — Pipes and filters**
-    - **Build:** Chain `grep`, `wc`, `sort`, `uniq` to extract data.
-    - **Links:** [[Linux Shell In-Depth]]
-- [ ] **Day 4 — Permissions and ownership**
+- [x] **Day 1 — How Linux sees the world** [[Linux_Internal_Hierarchy]] ✅
+- [x] **Day 2 — Reading and writing files** [[File_Descriptors_Redirection]] ✅
+- [x] **Day 3 — Pipes and filters** [[Unix_Pipes_Filters]] ✅
+- [ ] **Day 4 — Permissions and ownership** ⭐ START HERE
+    - **Resource:** [[Permissions_Ownership]]
     - **Build:** Lock down files/folders with `chmod` and `chown`.
-    - **Links:** [[Linux Fundamentals]]
 - [ ] **Day 5 — Shell scripting**
-    - **Build:** Create a `.sh` automated logging script.
-- [ ] **Day 6 — Text processing tools (Sed/Awk)**
-    - **Build:** Process CSV data using `sed`, `awk`, `cut`, and `tr`.
-    - **Links:** [[Mastering Sed]], [[Mastering Awk]]
-- [ ] **Day 7 — What Git actually is**
-    - **Build:** Initialize a repo for this vault.
-    - **Links:** [[Git and GitHub Setup]]
-- [ ] **Day 8 — Reading history and differences**
-    - **Build:** Use `git log` and `git diff` to trace changes.
-- [ ] **Day 9 — Branches and Merging**
-    - **Build:** Branch, merge, and resolve a conflict.
-- [ ] **Day 10 — GitHub and remotes**
-    - **Build:** Push the vault to a private GitHub remote.
+    - **Resource:** 📺 [Bash Scripting Course](https://youtu.be/Sx9zG7wa4FA) | [[Shell_Scripting_Basics]]
+    - **Build:** Create automated logging script.
+- [ ] **Day 6 — Text processing tools (Sed/Awk)** [[Sed_Awk_Mastery]]
+- [ ] **Day 7 — What Git actually is** [[Git_Internals_DAG]]
+- [ ] **Day 8 — Reading history and differences** [[Git_History_Diffs]]
+- [ ] **Day 9 — Branches and Merging** [[Git_Branching_Merging]]
+- [ ] **Day 10 — GitHub and remotes** [[GitHub_Remotes]]
+
+### 📺 Resources for Day 5+
+```bash
+# Course: The Complete Bash Scripting Course
+https://youtu.be/Sx9zG7wa4FA
+```
+
+### Terminal Tools to Learn (During Phase 1)
+- [ ] **grep** - Search file contents
+- [ ] **tmux** - Terminal multiplexer (sessions, panes)
+- [ ] **find** - Locate files
+- [ ] **ls** - List directory details
 
 ---
 
-## Phase 2 — Architecture & Networking Foundations (Days 11–15)
-*Target: Understanding hardware limits and internet protocols.*
+## Phase 2 — Architecture & Networking (Days 11-15)
 
-- [ ] **Day 11 — Computational Thinking**
-    - **Concept:** Binary, Logic Gates, and Algorithms.
-- [ ] **Day 12 — Computer Architecture**
-    - **Concept:** CPU, Memory Hierarchy, and Assembly Basics.
-- [ ] **Day 13 — Internet Infrastructure**
-    - **Concept:** TCP/IP, DNS, and Routing.
-    - **Build:** Trace a request from your machine to a server.
-- [ ] **Day 14 — HTTP: the language of the web**
-    - **Concept:** Request/Response, Methods, Status Codes.
-    - **Build:** Inspect raw HTTP traffic with `curl -v`.
-- [ ] **Day 15 — JSON & Web APIs**
-    - **Concept:** Key-value pairs and REST architecture.
-    - **Build:** Fetch and parse remote JSON data with `jq`.
+- [ ] **Day 11 — Networking Fundamentals** [[Network_Fundamentals]]
+- [ ] **Days 12-15 — Architecture & Scaling** [[System_Architecture_Scaling]]
 
 ---
 
-## Phase 3 — Data & Middleware Engineering (Days 16–22)
-*Target: Building the execution and persistence layers.*
-**Project: [[Project - Harness Engineering]]**
+## Phase 3 — Data & Middleware (Days 16-22)
 
-- [ ] **Day 16 — SQLite Primitives (State Management)**
-    - **Build:** Create a `memory.db` for tracking learning progress.
-    - **Links:** [[01_SQLite_State_Management]]
-- [ ] **Day 17 — Python Fundamentals**
-    - **Build:** A word frequency counter script.
-- [ ] **Day 18 — Python CLI Wrappers**
-    - **Build:** Write a Python script using `subprocess` to execute shell commands.
-    - **Links:** [[02_Python_API_Wrappers]]
-- [ ] **Day 19 — Python + SQLite (Middleware)**
-    - **Build:** Build a CLI tool that logs agent "thoughts" to SQLite.
-- [ ] **Day 20 — API Integration & Security**
-    - **Build:** Call an external API safely using environment variables.
-- [ ] **Day 21 — Servers and Virtualization**
-    - **Concept:** Hosting applications and isolating environments.
-- [ ] **Day 22 — Docker and Containers**
-    - **Build:** Containerize your Python SQLite CLI tool.
+- [ ] **Day 16 — SQLite Primitives** [[SQLite_Primitives_Internal]]
+- [ ] **Day 17 — Python Fundamentals** [[Python_Engineering_Fundamentals]]
+- [ ] **Day 18 — Python CLI Wrappers** [[Python_CLI_Engineering]]
+- [ ] **Day 19 — Python + SQLite** [[Python_SQLite_State_Management]]
+
+### 📚 SQL Track (Phase 3 Extended)
+- [ ] **Day 20a — SQL Fundamentals**
+    - **Resource:** [[SQL_Basics]]
+- [ ] **Day 20b — SQLite Deep Dive**
+    - **Resource:** [[01_SQLite_State_Management]]
+- [ ] **Day 20c — PostgreSQL Intro**
+    - **Resource:** [[PostgreSQL_Mastery]] (Mastery) | [[PostgreSQL_Getting_Started]] (Basics)
+    - **Video:** https://youtu.be/3JW732GrMdg
+- [ ] **Day 21 — PostgreSQL Basics** [[PostgreSQL_Basics_Security]]
+- [ ] **Day 22 — Docker**
+    - **Resource:** [[Docker_Containerization]]
 
 ---
 
-## Phase 4 — Agentic Systems & Harness Construction (Days 23–30)
-*Target: Building the Model Context Protocol layer and understanding AI architecture.*
-**Project: [[Project - Agentic Systems]] & [[Project - Harness Engineering]]**
+## Phase 4 — Agentic Systems (Days 23-30)
 
-- [x] **Day 23 — AI Agent Foundations**
-    - **Links:** [[00_Overview]], [[Claude Code]], [[Gemini CLI]], [[Codex]]
-- [ ] **Day 24 — Tool Use & Planning Loops**
-    - **Links:** [[Google_Cloud_AI_Agents_Strategy]], [[Startup Technical Guide - AI Agents]]
-- [ ] **Day 25 — MCP Protocol Basics**
-    - **Build:** Implement a basic "Hello World" MCP server in Python.
-    - **Links:** [[03_MCP_Tool_Construction]]
-- [ ] **Day 26 — MCP Tools (The Action Layer)**
-    - **Build:** Convert your Day 19 CLI tool into an MCP Tool.
-- [ ] **Day 27 — MCP Resources (The Data Layer)**
-    - **Build:** Connect your vault files to an MCP Resource provider.
-- [ ] **Day 28 — Integrating MCP with Agents**
-    - **Build:** Run `gemini-cli` with your custom MCP server attached.
-- [ ] **Day 29 — LLM Architecture Deep Dive**
-    - **Concept:** Tokens, weights, and transformer models.
-- [ ] **Day 30 — Automation & CI/CD**
-    - **Build:** Set up Cron Jobs for automated system audits.
+- [ ] **Day 23 — AI Agent Foundations** [[AI_Agent_Foundations_Mental_Models]]
+- [ ] **Day 24 — Tool Use & Planning Loops** [[Tool_Use_Planning_Loops]]
+- [ ] **Day 25 — MCP Protocol Basics** 
+- [ ] **Day 26 — MCP Tools** [[MCP_Tools_Development]]
+- [ ] **Day 27 — MCP Resources** [[MCP_Resources_Architecture]]
+- [ ] **Day 28 — Integrating MCP with Agents** [[MCP_Agent_Integration]]
+- [ ] **Day 29 — LLM Architecture** [[LLM_Architecture_Internals]]
+- [ ] **Day 30 — Automation & CI/CD** [[AI_Automation_CICD]]
 
 ---
 
-## Phase 5 — Autonomous Workflows & Skills (Days 31–40)
-*Target: Designing AI systems that run complex, independent workflows.*
+## Phase 5 — Autonomous Workflows (Days 31-40)
 
-- [x] **Day 31 — Skill Systems Foundations**
-    - **Links:** [[GitHub and good skills]]
-- [ ] **Day 32 — Universal Skill Authoring**
-    - **Build:** Create a "Universal Research Skill" for your vault.
-- [ ] **Day 33 — Context Providers**
-    - **Build:** Develop an MCP Context Provider for dynamic prompt injection.
-- [ ] **Day 34 — Reasoning Chains**
-    - **Concept:** Designing self-healing systems and task decomposition.
-- [ ] **Day 35 — OpenSpace MCP Bridge**
-    - **Build:** Link isolated framework tools to your CLI agent.
-    - **Links:** [[OpenSpace MCP Bridge]]
-- [ ] **Day 36 — Research Agents**
-    - **Build:** Deploy an agent solely responsible for maintaining the knowledge base.
-- [ ] **Day 37 — Coding Agents**
-    - **Build:** Delegate a refactoring task to an agent via MCP tools.
-- [ ] **Day 38 — Multi-Agent Communication**
-    - **Concept:** Enabling agents to hand off tasks to specialized sub-agents.
-- [ ] **Day 39 — The Full Loop (Autonomous Prototype)**
-    - **Build:** Have an agent use your custom MCP tool to update its own memory in SQLite.
-- [ ] **Day 40 — Final Synthesis**
-    - **Build:** Refactor the entire ROADMAP based on verified agentic capabilities.
+- [ ] **Day 31 — Skill Systems** [[Skill_Systems_Architecture]]
+- [ ] **Day 32 — Universal Skill Authoring** [[Universal_Skill_Authoring]]
+- [ ] **Day 33 — Context Providers** [[Context_Providers_Strategy]]
+- [ ] **Day 34 — Reasoning Chains** [[Reasoning_Chains_Patterns]]
+- [ ] **Day 35 — OpenSpace MCP Bridge** [[OpenSpace_MCP_Bridge_Engineering]]
+- [ ] **Day 36 — Research Agents** [[Research_Agents_Autonomous]]
+- [ ] **Day 37 — Coding Agents** [[Coding_Agents_Architecture]]
+- [ ] **Day 38 — Multi-Agent Communication** [[Multi_Agent_Protocols]]
+- [ ] **Day 39 — Autonomous Prototype** [[Autonomous_Prototype_Construction]]
+- [ ] **Day 40 — Final Synthesis** [[System_Synthesis_Review]]
+
+---
+
+## 📊 PROGRESS SUMMARY
+
+| Phase | Days | Progress |
+|-------|------|----------|
+| Phase 1 | 1-10 | 30% |
+| Phase 2 | 11-15 | 0% |
+| Phase 3 | 16-22 | 57% + SQL |
+| Phase 4 | 23-30 | 37% |
+| Phase 5 | 31-40 | 20% |
+
+**Total: 12/40 days (30%)**
+
+---
+
+## 🎯 TODAY: Day 4 - Permissions
+
+**Start:** [[Linux Fundamentals]] or [[01_Phase_Infrastructure_Shell]]
+
+---
+
+*Last Updated: 21-04-2026*
+*Reference: [[00_daily_logs/21-04-2026]]*
