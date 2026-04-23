@@ -28,14 +28,32 @@
 
 ---
 
-## Archived Knowledge Base
-*Classification: Pull-based technical reference only*
+## 📚 Active Mastery: 40-Day Full Curve
+*Classification: Execution-First Roadmap (Phase 1–5)*
 
-### Legacy 40-Day Roadmap
-- [[10_Knowledge/Archive/Legacy_Roadmap/ROADMAP.md|Legacy ROADMAP]] — Deprecated linear tracking system
-- [[10_Knowledge/Archive/Legacy_Roadmap/Topics.md|Legacy Topics]] — Deprecated progress tracker
-- [[10_Knowledge/Archive/Legacy_Roadmap/01_Phase_Infrastructure_Shell|Phase 1: Linux & Shell]]
-- [[10_Knowledge/Archive/Legacy_Roadmap/02_Phase_Architecture_Networking|Phase 2: Networking]]
-- [[10_Knowledge/Archive/Legacy_Roadmap/03_Phase_Data_Middleware|Phase 3: Data & SQL]]
-- [[10_Knowledge/Archive/Legacy_Roadmap/04_Phase_Agentic_Systems_Legacy|Phase 4: Agent Basics (Legacy)]]
-- [[10_Knowledge/Archive/Legacy_Roadmap/05_Phase_Autonomous_Workflows|Phase 5: Workflows (Legacy)]]
+### Phase 1: Infrastructure & Shell Primitives
+- [[10_Knowledge/01_Phase_Infrastructure_Shell/Permissions_Ownership.md|Day 04: Permissions & Ownership]] — **COMPLETED**
+- [[10_Knowledge/01_Phase_Infrastructure_Shell/Shell_Scripting_Basics.md|Day 05: Shell Scripting]] — *NEXT*
+- [[10_Knowledge/01_Phase_Infrastructure_Shell/Git_Internals_DAG.md|Day 07: Git Internals]]
+- [[10_Knowledge/01_Phase_Infrastructure_Shell/Sed_Awk_Mastery.md|Day 10: Stream Editing]]
+
+### Phase 2: Architecture & Networking
+- [[10_Knowledge/02_Phase_Architecture_Networking/Network_Fundamentals.md|Day 11: Network Primitives]]
+- [[10_Knowledge/02_Phase_Architecture_Networking/System_Architecture_Scaling.md|Day 13: Scaling Logic]]
+
+### Phase 3: Data & Middleware
+- [[10_Knowledge/03_Phase_Data_Middleware/01_SQLite_State_Management.md|Day 16: SQLite State]]
+- [[10_Knowledge/03_Phase_Data_Middleware/Docker_Containerization.md|Day 20: Containerization]]
+
+---
+
+## 🏗️ High-Scale Systems: Agent Architect Manual
+*Authority: v2.2 Execution Protocol (Phase 4 Extension)*
+
+### Foundation
+- [[10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L0_Foundation/L0_C01_What_Is_An_Agent.md|L0_C01: What is an Agent?]]
+- [[10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L0_Foundation/L0_C02_Your_Stack_And_Environment.md|L0_C02: Stack & Environment]]
+
+### Discipline
+- [[10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L1_Discipline/L1_C05_Domain_Driven_Design_For_Agents.md|L1_C05: DDD for Agents]]
+- [[10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L1_Discipline/L1_C06_MCP_Architecture_Proper.md|L1_C06: MCP Architecture]]

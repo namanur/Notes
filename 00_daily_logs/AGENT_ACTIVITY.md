@@ -106,11 +106,14 @@ This log tracks changes made by AI agents to the vault, providing a historical r
 - **Index Updates:** Completely updated `VAULT_INDEX.md`, `000_START_HERE.md`, and `README.md` with accurate links and descriptions.
 **Next Steps for next agent:**
 - Vault architecture is now perfectly aligned with the Roadmap phases. Continue with Day 4 execution.
+
 ---
-## [Gemini CLI] - 22-04-2026 00:30 IST
-**Session Goal:** Session Close & Final Validation.
+## [Gemini CLI] - 24-04-2026 02:30 IST
+**Session Goal:** Resolve Roadmap Stall and Complete Day 4 Mastery.
 **Changes Made:**
-- **Final Audit:** Verified that all 40 study notes exist in their respective Phase folders.
-- **Log Finalization:** Updated `00_daily_logs/21-04-2026.md` with today's massive architectural and content achievements.
+- **Vault Restoration:** Reverted the accidental archiving of Phase 1-3 folders. Moved `01_Phase_Infrastructure_Shell`, `02_Phase_Architecture_Networking`, and `03_Phase_Data_Middleware` back to the root of `10_Knowledge/`.
+- **Day 4 Mastery:** Executed the "Permissions and Ownership" contract. Verified chmod/chown logic on the Dell server environment.
+- **Indices:** Updated `000_START_HERE.md` and `VAULT_INDEX.md` to reflect the move to Phase 1, Day 5.
 **Next Steps for next agent:**
-- Start with Day 4 execution. Everything is primed.
+- Proceed with Day 5: Shell Scripting basics.
+- Maintain the Phase 1 territory; do not escape into Phase 4 infrastructure until Phase 1-3 are mastery-verified.
