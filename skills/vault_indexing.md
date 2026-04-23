@@ -71,7 +71,7 @@ Never rewrite the entire file.
 
 ### 6. Per-Note Entry Format
 ```
-- [[Note Name]] — [one sentence: what this file contains, which layer it
+- Note Name — [one sentence: what this file contains, which layer it
   belongs to, and what it enables] | Layer: [L0–L4 or System] |
   Session: [which session wrote it] | Status: [complete/partial/failed] |
   Bytes: [from disk check]
@@ -79,7 +79,7 @@ Never rewrite the entire file.
 
 For FAILED entries from SESSION_LOG.md:
 ```
-- [[Note Name]] — FAILED: [chapter mandate summary] | Layer: [L0–L4] |
+- Note Name — FAILED: [chapter mandate summary] | Layer: [L0–L4] |
   Session: [session number] | Status: failed — re-queue next session
 ```
 
@@ -145,7 +145,7 @@ SESSION_LOG.md. Until then it is a draft. Drafts are never indexed.
 
 Format for confirmed study note entry:
 ```
-- [[STUDY_NOTES/topic_slug]] — Study note for [topic]: confirmed before
+- STUDY_NOTES/topic_slug — Study note for [topic]: confirmed before
   [chapter filename], Grill Me passed: [yes/no] | Layer: [L0–L4] |
   Status: confirmed
 ```
@@ -157,7 +157,7 @@ If SESSION_LOG.md contains FAILED entries for any chapter:
 - The entry reminds you to re-queue it next session
 
 ### 10. Internal Link Validation
-All `[[Internal Links]]` in VAULT_INDEX.md must resolve to files on disk.
+All `Internal Links` in VAULT_INDEX.md must resolve to files on disk.
 Tag any link pointing to a planned-but-unspawned file:
 ```
 | Status: planned — not yet spawned | Session: [target session]

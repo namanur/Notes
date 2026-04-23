@@ -19,7 +19,7 @@
 **Note Template:**
 ```markdown
 # [Topic Name]
-[[Phase X]] | [Related Note]
+Phase Phase X | [Related Note]
 
 ## 1. The Mental Model
 [How it works under the hood. Why it fails.]

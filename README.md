@@ -25,7 +25,7 @@ We are currently executing a structured 40-day curriculum:
 - **Persistence:** SQLite for agent memory and session state.
 - **Middleware:** Python for wrapping system commands and APIs.
 - **Intelligence:** Gemini CLI, Claude Code, and custom MCP (Model Context Protocol) servers.
-- **Knowledge Pattern:** The "Karpathy Pattern" — distilling high-signal insights into the [[llm-wiki]].
+- **Knowledge Pattern:** The "Karpathy Pattern" — distilling high-signal insights into the llm-wiki.
 
 ## 🚦 Getting Started
 - Read [[000_START_HERE]] for the current session context.

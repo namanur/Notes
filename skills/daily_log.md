@@ -7,5 +7,5 @@
 3. If not, copy the content of `Daily log template.md` into a new file named with today's date.
 4. Fill in the "To Do" section with tasks for the current session.
 5. Record progress in the "What I Did" section as tasks are completed.
-6. Link relevant [[Knowledge]] notes or [[Project]] files created or modified.
+6. Link relevant Knowledge notes or Project files created or modified.
 **Output:** A dated markdown file in `00_daily_logs/` tracking the day's execution.

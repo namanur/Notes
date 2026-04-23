@@ -11,7 +11,7 @@
 2. **Entity Check**: Check `Documents/llm-wiki/index.md` to see if an entity/concept page already exists.
 3. **Draft/Update Page**: 
     - Create/Update pages in `Documents/llm-wiki/` following the YAML metadata standards in `WIKI_SCHEMA.md`.
-    - Use `[[Double Bracket]]` syntax for all cross-references to ensure Obsidian compatibility.
+    - Use `Double Bracket` syntax for all cross-references to ensure Obsidian compatibility.
 4. **Update Navigation**: 
     - Append a summary entry to `Documents/llm-wiki/index.md`.
     - Record the operation type (Compile/Update) in `Documents/llm-wiki/log.md`.

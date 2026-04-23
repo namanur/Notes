@@ -13,7 +13,7 @@ Before making any changes or concluding your session, prepare a log entry that a
 
 #### Log Entry Format:
 ```markdown
-### [[YYYY-MM-DD]] - [Agent Name] - [HH:MM]
+### YYYY-MM-DD - [Agent Name] - [HH:MM]
 
 **Goal:** [Briefly state the primary objective of your session.]
 
@@ -41,11 +41,11 @@ Once your session is complete or you are about to hand over control, append your
 - **Goal**: Focus on the *why* of your session.
 - **Changes Made**: Focus on the *what* and *where* of your actions.
 - **Next Steps**: Focus on the *how to proceed* for future agents or yourself.
-- **Wikilinks**: Use `[[wikilinks]]` for internal references where appropriate.
+- **Wikilinks**: Use `wikilinks` for internal references where appropriate.
 
 ## Example of a Log Entry:
 ```markdown
-### [[2026-04-21]] - Pi Agent - 14:30
+### 2026-04-21 - Pi Agent - 14:30
 
 **Goal:** Add "Understanding YAML" to learning notes and set up agent activity logging.
 

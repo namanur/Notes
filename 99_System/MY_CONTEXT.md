@@ -141,7 +141,7 @@ Create demos showcasing:
 -  - Full 40-day learning plan
 - [[UNIVERSAL_AGENT_BUILDER]] - Agent building path
 - [[00_Harness_Basics_Guide]] - Harness explained
-- [[Terminal_MasterY]] - tmux, bash shortcuts
+- Terminal_MasterY - tmux, bash shortcuts
 - [[SQL_Basics]] - SQL fundamentals
 - [[PostgreSQL_Getting_Started]] - PostgreSQL intro
 - [[Agent_Setup]] - All tools & commands

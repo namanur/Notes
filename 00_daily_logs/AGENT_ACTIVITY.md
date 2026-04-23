@@ -6,7 +6,7 @@ This log tracks changes made by AI agents to the vault, providing a historical r
 
 ## Log Entries
 
-### [[2026-04-21]] - Gemini CLI - 22:45
+### 2026-04-21 - Gemini CLI - 22:45
 **Session Goal:** Finalize "Thinking Enforcement System" and Full Syllabus Coverage.
 **Changes Made:**
 - **Full Coverage Achieved:** Generated high-signal study notes for the entire 40-day ROADMAP (Phase 1-5).
@@ -24,7 +24,7 @@ This log tracks changes made by AI agents to the vault, providing a historical r
 
 ---
 
-### [[2026-04-21]] - Gemini CLI - 22:15
+### 2026-04-21 - Gemini CLI - 22:15
 **Session Goal:** Implement the "Thinking Enforcement System" via the Study Builder skill.
 **Changes Made:**
 - `skills/study_material_builder.md`: Created the procedural skill for all agents.
@@ -37,7 +37,7 @@ This log tracks changes made by AI agents to the vault, providing a historical r
 
 ---
 
-### [[2026-04-21]] - Gemini CLI - 21:45
+### 2026-04-21 - Gemini CLI - 21:45
 **Session Goal:** Initialize Cross-Agent Session Logging.
 **Changes Made:**
 - `00_daily_logs/AGENT_ACTIVITY.md`: Created this central ledger.
@@ -47,7 +47,7 @@ This log tracks changes made by AI agents to the vault, providing a historical r
 
 ---
 
-### [[2026-04-21]] - Pi Agent - 16:30
+### 2026-04-21 - Pi Agent - 16:30
 **Goal:** Add "Understanding YAML" to learning notes and implement a multi-agent activity logging system.
 **Changes Made:**
 - Created `10_Knowledge/Understanding YAML.md`.
@@ -108,12 +108,12 @@ This log tracks changes made by AI agents to the vault, providing a historical r
 - Vault architecture is now perfectly aligned with the Roadmap phases. Continue with Day 4 execution.
 
 ---
-## [Gemini CLI] - 24-04-2026 02:30 IST
-**Session Goal:** Resolve Roadmap Stall and Complete Day 4 Mastery.
+## [Gemini CLI] - 24-04-2026 02:45 IST
+**Session Goal:** Ghost Purge and Vault Simplification.
 **Changes Made:**
-- **Vault Restoration:** Reverted the accidental archiving of Phase 1-3 folders. Moved `01_Phase_Infrastructure_Shell`, `02_Phase_Architecture_Networking`, and `03_Phase_Data_Middleware` back to the root of `10_Knowledge/`.
-- **Day 4 Mastery:** Executed the "Permissions and Ownership" contract. Verified chmod/chown logic on the Dell server environment.
-- **Indices:** Updated `000_START_HERE.md` and `VAULT_INDEX.md` to reflect the move to Phase 1, Day 5.
+- **Reorganization:** Simplified `10_Knowledge` structure from "Phase X" to descriptive topics: `01_Infrastructure_Shell`, `02_Networking_Architecture`, `03_Data_Middleware`, `04_Agentic_Systems`.
+- **Ghost Purge:** Executed a Python script to scan all 60+ files and convert broken `[[GhostLink]]` entries into plain text. Cleaned 49 files.
+- **Path Flattening:** Converted full-path links (e.g., `[[path/to/note.md]]`) to simple `[[note]]` format for better Obsidian resilience.
+- **Indices:** Fully rewrote `000_START_HERE.md` and `99_System/VAULT_INDEX.md` to remove all vague Phase references and broken links.
 **Next Steps for next agent:**
-- Proceed with Day 5: Shell Scripting basics.
-- Maintain the Phase 1 territory; do not escape into Phase 4 infrastructure until Phase 1-3 are mastery-verified.
+- The Graph View is now clean. Continue Day 5: Shell Scripting in `10_Knowledge/01_Infrastructure_Shell/`.

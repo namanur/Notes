@@ -38,7 +38,7 @@ The vault is organized into functional layers:
 
 ## Usage and Conventions
 - **Renaming:** Obsidian is configured to `alwaysUpdateLinks: true`. Renaming a file will automatically update all internal links.
-- **Linking:** Extensive use of `[[Internal Links]]` is encouraged to connect ideas across the 12 phases.
+- **Linking:** Extensive use of `Internal Links` is encouraged to connect ideas across the 12 phases.
 - **Daily Logs:** Used to track tasks ("To Do") and progress ("What I Did") on a daily basis.
 - **Roadmap Tracking:** `Topics.md` serves as the high-level progress tracker; check off items as they are mastered.
 

@@ -74,7 +74,7 @@
 1. Source: Find completed content in daily logs or knowledge
 2. Check: Look up entity in `Documents/llm-wiki/index.md`
 3. Write: Create/update wiki page with YAML metadata
-4. Link: Add to index with `[[double brackets]]`
+4. Link: Add to index with `double brackets`
 5. Log: Record in `Documents/llm-wiki/log.md`
 
 **Wiki Location:** `Documents/llm-wiki/`

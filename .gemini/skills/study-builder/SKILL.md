@@ -15,7 +15,7 @@ This skill enforces a brutal, execution-first approach to learning.
    - **Mastery Drills:** Create, break, fix.
    - **Execution Contract:** Timebox, Start Command, Completion Condition.
 3. **Automate Integration:**
-   - Add [[Phase X]] header.
+   - Add Phase X header.
    - Link `ROADMAP.md`.
    - Update `99_System/Topics.md`.
 

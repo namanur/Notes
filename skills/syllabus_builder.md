@@ -7,5 +7,5 @@
 3. Organize notes by Phase -> Project -> Chapter -> Topic.
 4. Add a one-line summary for each chapter.
 5. Update the status: `[x]` for completed, `[/]` for in-progress, `[ ]` for pending.
-6. Verify that every topic note has a [[Phase header block]].
+6. Verify that every topic note has a Phase header block.
 **Output:** A hierarchical, linked map of all learning in `SYLLABUS.md`.
