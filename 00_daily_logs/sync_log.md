@@ -2468,3 +2468,59 @@ Skipping projects (no parent folder ID)
 Skipping projects/peak-protocol (no parent folder ID)
 Skipping .trash (no parent folder ID)
 --- Sync Completed: 2026-04-24 01:00:00.967606 ---
+--- Starting Vault Sync: 2026-04-24 02:00:00.134946 ---
+Syncing directory: root (ID: 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_)
+Error running gws command drive files list --params {"q": "'1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_' in parents and trashed = false", "fields": "files(id, name, mimeType)"}: [Errno 2] No such file or directory: 'gws'
+Error running gws command drive files create --json {"name": ".trash", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: .trash
+Error running gws command drive files create --json {"name": "00_daily_logs", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 00_daily_logs
+Error running gws command drive files create --json {"name": "10_Knowledge", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 10_Knowledge
+Error running gws command drive files create --json {"name": "99_System", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: 99_System
+Error running gws command drive files create --json {"name": "projects", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: projects
+Error running gws command drive files create --json {"name": "skills", "mimeType": "application/vnd.google-apps.folder", "parents": ["1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_"]}: [Errno 2] No such file or directory: 'gws'
+  [!] Failed to create folder: skills
+  [+] Uploading: 000_START_HERE.md
+Error running gws command drive +upload /home/naman/Documents/Notes/000_START_HERE.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: AGENTS.md
+Error running gws command drive +upload /home/naman/Documents/Notes/AGENTS.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: GEMINI.md
+Error running gws command drive +upload /home/naman/Documents/Notes/GEMINI.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: LICENSE
+Error running gws command drive +upload /home/naman/Documents/Notes/LICENSE --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: README.md
+Error running gws command drive +upload /home/naman/Documents/Notes/README.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: ROADMAP.md
+Error running gws command drive +upload /home/naman/Documents/Notes/ROADMAP.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+  [+] Uploading: gemini_vault_prompt_v2_2.md
+Error running gws command drive +upload /home/naman/Documents/Notes/gemini_vault_prompt_v2_2.md --parent 1dGSzYsqhsZW-C8amSil5HseJfl-cHOV_: [Errno 2] No such file or directory: 'gws'
+Skipping 00_daily_logs (no parent folder ID)
+Skipping 99_System (no parent folder ID)
+Skipping 99_System/agents (no parent folder ID)
+Skipping 99_System/Archive (no parent folder ID)
+Skipping 99_System/Archive/Logs (no parent folder ID)
+Skipping 99_System/Archive/Isolated_Session_001 (no parent folder ID)
+Skipping 10_Knowledge (no parent folder ID)
+Skipping 10_Knowledge/01_Phase_Infrastructure_Shell (no parent folder ID)
+Skipping 10_Knowledge/02_Phase_Architecture_Networking (no parent folder ID)
+Skipping 10_Knowledge/03_Phase_Data_Middleware (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Resources (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/_SYSTEM (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/GENERATED_CONTEXT (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L0_Foundation (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L1_Discipline (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L2_Production (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L3_Scale (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/L4_Leverage (no parent folder ID)
+Skipping 10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/STUDY_NOTES (no parent folder ID)
+Skipping 10_Knowledge/05_Phase_Autonomous_Workflows (no parent folder ID)
+Skipping skills (no parent folder ID)
+Skipping projects (no parent folder ID)
+Skipping projects/peak-protocol (no parent folder ID)
+Skipping .trash (no parent folder ID)
+--- Sync Completed: 2026-04-24 02:00:00.143904 ---
