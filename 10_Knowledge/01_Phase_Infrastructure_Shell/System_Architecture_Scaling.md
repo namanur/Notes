@@ -1,7 +1,7 @@
 # System Architecture & Scaling: Process Models & Memory
 
 **Phase:** Phase 2 — Architecture & Networking (Days 12-15)
-**Links:** [[ROADMAP]] | [[Linux Fundamentals]]
+**Links:** [[Linux Fundamentals]]
 
 ---
 

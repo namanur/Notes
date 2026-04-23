@@ -14,7 +14,7 @@
 - [ ] Terminal Mastery: Learn tmux, bash shortcuts
 
 ## Quick Links
-- [[ROADMAP]]: Full 40-Day execution dashboard
+- : Full 40-Day execution dashboard
 - [[VAULT_INDEX]]: Complete inventory of all phase-based notes
 - [[00_daily_logs/AGENT_ACTIVITY]]: Cross-agent activity ledger (Check this first!)
 - [[skills/SKILLS_INDEX]]: Standardized skills system

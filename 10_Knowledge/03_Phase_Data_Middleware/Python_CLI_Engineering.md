@@ -1,6 +1,6 @@
 # Phase 3: Python CLI Wrappers (argparse/click)
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The Command Interface
 A CLI tool is a bridge between a human (or agent) and a system. The interface must be **predictable**, **self-documenting**, and **composable**.
@@ -76,4 +76,4 @@ if not sys.stdin.isatty():
 - **Completion Condition:** Successfully build a 3-level subcommand CLI that accepts piped input and returns a non-zero exit code on invalid arguments.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

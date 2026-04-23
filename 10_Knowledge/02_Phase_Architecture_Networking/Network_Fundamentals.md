@@ -1,6 +1,6 @@
 # Phase 2: Network Fundamentals
 **Track:** Architecture & Networking
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The Brutal Reality of Bits
 Forget the "cloud." Networking is the violent negotiation of voltage and light across physical media, abstracting into a stack of lies we call layers.
@@ -66,4 +66,4 @@ nmap -sV -p- localhost
 - **Completion Condition:** Successfully trace a packet from your machine to a public IP using `mtr` or `traceroute`, identifying every hop.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

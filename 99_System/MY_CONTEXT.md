@@ -110,7 +110,7 @@ We have multiple parallel tracks now:
 
 We're doing **Day 4 - Permissions** next.
 
-Check [[ROADMAP]] for full progress.
+Check  for full progress.
 
 ---
 
@@ -138,7 +138,7 @@ Create demos showcasing:
 
 ## 🔗 Important Links
 
-- [[ROADMAP]] - Full 40-day learning plan
+-  - Full 40-day learning plan
 - [[UNIVERSAL_AGENT_BUILDER]] - Agent building path
 - [[00_Harness_Basics_Guide]] - Harness explained
 - [[Terminal_MasterY]] - tmux, bash shortcuts

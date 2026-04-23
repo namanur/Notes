@@ -1,6 +1,6 @@
 # Phase 3: PostgreSQL Basics (Setup & Security)
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The Forking Server
 Unlike SQLite, PostgreSQL is a client-server database. Every connection to the database forks a new process on the server.
@@ -75,4 +75,4 @@ ssl_key_file = 'server.key'
 - **Completion Condition:** Successfully create a non-superuser role that can only access one specific schema and verify the restriction via `psql`.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

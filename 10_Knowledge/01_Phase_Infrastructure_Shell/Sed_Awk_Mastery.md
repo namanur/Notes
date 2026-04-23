@@ -1,5 +1,5 @@
 # Sed and Awk Mastery
-[[Phase 1]] | [[ROADMAP]]
+[[Phase 1]]
 
 ## 1. The Mental Model
 - **Sed (Stream Editor):** A non-interactive editor that performs transformations on a stream of text. Think of it as "Search and Replace on steroids." It works line-by-line.

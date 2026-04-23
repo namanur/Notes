@@ -1,5 +1,5 @@
 # GitHub and Remotes
-[[Phase 1]] | [[Git_Branching_Merging]] | [[ROADMAP]]
+[[Phase 1]] | [[Git_Branching_Merging]]
 
 ## 1. The Mental Model
 Remotes are just versions of your project hosted elsewhere (e.g., GitHub, a local server). 

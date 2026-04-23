@@ -238,5 +238,5 @@ WHERE completed = TRUE;
 
 ---
 
-*Reference: [[ROADMAP]] Phase 3 - SQL Track*
+*Reference:  Phase 3 - SQL Track*
 *See Also: [[01_SQLite_State_Management]]*

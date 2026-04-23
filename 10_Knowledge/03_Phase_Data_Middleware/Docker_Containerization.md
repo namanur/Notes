@@ -1,6 +1,6 @@
 # Phase 3: Docker & Containerization
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The Process Illusion
 A container is not a "lightweight VM." It is a normal Linux process with a fancy set of blinkers on.
@@ -64,4 +64,4 @@ docker buildx build --platform linux/amd64,linux/arm64 -t user/app:latest .
 - **Completion Condition:** Successfully build a multi-stage Dockerfile that results in an image under 10MB and runs a static binary.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

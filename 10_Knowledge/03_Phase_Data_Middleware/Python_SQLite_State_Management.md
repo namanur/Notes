@@ -1,6 +1,6 @@
 # Phase 3: Python + SQLite (State Management)
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The State Library
 When Python talks to SQLite, it isn't "talking to a service." It's a Python process calling a C library that reads a file. 
@@ -73,4 +73,4 @@ sqlite3.register_converter("JSON", json.loads)
 - **Completion Condition:** Successfully build a "State Manager" class that handles connection pooling (manual), parameterized queries, and schema versioning.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

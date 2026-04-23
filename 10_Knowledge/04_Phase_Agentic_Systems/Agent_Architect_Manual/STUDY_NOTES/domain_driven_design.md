@@ -1,5 +1,5 @@
 # Domain-Driven Design (DDD)
-[[L1]] | [[L1_C05_Domain_Driven_Design_For_Agents]] | [[ROADMAP]]
+[[L1]] | [[L1_C05_Domain_Driven_Design_For_Agents]]
 
 ## 1. The Mental Model
 Domain-Driven Design (DDD) is not a coding style; it is a **reconciliation protocol**. 

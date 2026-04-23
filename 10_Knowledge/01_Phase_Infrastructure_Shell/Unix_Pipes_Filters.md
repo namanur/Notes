@@ -27,5 +27,5 @@ Pipes are **kernel-managed buffers** that connect the `stdout` of one process di
 
 ---
 **Links:**
-- [[ROADMAP]]
+- 
 - [[Pipes and Filters]]

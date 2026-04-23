@@ -28,5 +28,5 @@ Modern tools to inspect the hierarchy:
 
 ---
 **Links:**
-- [[ROADMAP]]
+- 
 - [[Linux Fundamentals]]

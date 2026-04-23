@@ -1,5 +1,5 @@
 # Multi-Agent Swarms
-[[L3]] | [[L3_C11_Multi_Agent_Swarms]] | [[ROADMAP]]
+[[L3]] | [[L3_C11_Multi_Agent_Swarms]]
 
 ## 1. The Mental Model
 Multi-agent swarms represent the shift from a **"Solo Genius"** to a **"Disciplined Crew."** Instead of one complex agent trying to master every tool, we isolate roles into specific, specialized workers.

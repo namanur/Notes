@@ -1,5 +1,5 @@
 # Git Branching and Merging
-[[Phase 1]] | [[Git_History_Diffs]] | [[ROADMAP]]
+[[Phase 1]] | [[Git_History_Diffs]]
 
 ## 1. The Mental Model
 A branch is nothing more than a lightweight, movable pointer to a commit. 

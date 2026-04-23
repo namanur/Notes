@@ -82,9 +82,9 @@ exit 0
 ## 📚 Related Resources
 
 - [[Terminal_Mastery]] - tmux, shortcuts
-- [[ROADMAP]] - Full 40-day plan
+-  - Full 40-day plan
 - [[01_SQLite_State_Management]] - Day 16
 
 ---
 
-*Reference: [[ROADMAP]] Day 5 - Shell Scripting*
+*Reference:  Day 5 - Shell Scripting*

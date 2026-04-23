@@ -245,5 +245,5 @@ SELECT * FROM days WHERE status = 'in_progress';
 
 ---
 
-*Reference: [[ROADMAP]] Day 20c-21*
+*Reference:  Day 20c-21*
 *Based on: https://www.youtube.com/watch?v=3JW732GrMdg*

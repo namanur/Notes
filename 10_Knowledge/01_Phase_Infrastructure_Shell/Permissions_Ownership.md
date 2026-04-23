@@ -1,5 +1,5 @@
 # Permissions and Ownership
-[[Phase 1]] | [[Linux Fundamentals]] | [[ROADMAP]]
+[[Phase 1]] | [[Linux Fundamentals]]
 
 ## 1. The Mental Model
 Permissions are not just "settings"; they are bitmasks (mode bits) stored in the filesystem's inode metadata. 

@@ -122,4 +122,4 @@ Based on your learning:
 - [[00_Harness_Basics_Guide]] - Full harness guide
 - [[03_MCP_Tool_Construction]] - Build custom tools
 - [[skills/SKILLS_INDEX]] - Your skills system
-- [[ROADMAP]] - Full learning roadmap
+-  - Full learning roadmap

@@ -283,7 +283,7 @@ The Orchestrator spawns a Study Note Writer with this structure:
 
 ```markdown
 # [Topic Name]
-[[Layer]] | [[Chapter it feeds]] | [[ROADMAP]]
+[[Layer]] | [[Chapter it feeds]]
 
 ## 1. The Mental Model
 [How it works under the hood. Why it fails. No marketing definitions.]

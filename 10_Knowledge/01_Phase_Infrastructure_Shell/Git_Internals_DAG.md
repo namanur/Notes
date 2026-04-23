@@ -1,5 +1,5 @@
 # Git Internals (The DAG & Snapshots)
-[[Phase 1]] | [[Git and GitHub Setup]] | [[ROADMAP]]
+[[Phase 1]] | [[Git and GitHub Setup]]
 
 ## 1. The Mental Model
 **Git is NOT a list of file changes (diffs).** It is a stream of **Snapshots**.

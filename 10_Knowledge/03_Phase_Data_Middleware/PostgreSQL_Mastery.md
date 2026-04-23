@@ -1,6 +1,6 @@
 # Phase 3: PostgreSQL Mastery
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The Persistent Truth Engine
 PostgreSQL is not a "file saver." It is a complex ACID-compliant state machine that prioritizes data integrity over everything else.
@@ -63,4 +63,4 @@ SELECT data->>'name' FROM events WHERE data @> '{"type": "signup"}';
 - **Completion Condition:** Successfully optimize a query from a "Seq Scan" to an "Index Scan" and verify via `EXPLAIN ANALYZE`.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

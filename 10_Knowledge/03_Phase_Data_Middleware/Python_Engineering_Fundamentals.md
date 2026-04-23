@@ -1,6 +1,6 @@
 # Phase 3: Python Engineering Fundamentals
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The Bytecode Interpreter
 Python is not "interpreted" line-by-line like a simple shell script. It is compiled into **Bytecode** which runs on the **Python Virtual Machine (PVM)**.
@@ -80,4 +80,4 @@ def process_users(user_ids: List[int]) -> Optional[Dict[str, str]]:
 - **Completion Condition:** Successfully build a script that uses `__slots__`, Type Hinting, and a custom Context Manager, passing a `mypy` strict check.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

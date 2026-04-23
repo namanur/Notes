@@ -29,7 +29,7 @@ We are currently executing a structured 40-day curriculum:
 
 ## 🚦 Getting Started
 - Read [[000_START_HERE]] for the current session context.
-- Check [[ROADMAP]] for the active execution plan.
+- Check  for the active execution plan.
 - Browse [[VAULT_INDEX]] for a complete note inventory.
 
 ---

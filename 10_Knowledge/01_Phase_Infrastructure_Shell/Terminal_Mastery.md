@@ -202,4 +202,4 @@ command &> all.txt     # both
 
 ---
 
-*Reference: [[ROADMAP]] Day 4-10 supplement*
+*Reference:  Day 4-10 supplement*

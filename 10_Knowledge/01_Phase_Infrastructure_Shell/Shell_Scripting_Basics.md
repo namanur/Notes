@@ -1,5 +1,5 @@
 # Shell Scripting Basics
-[[Phase 1]] | [[ROADMAP]]
+[[Phase 1]]
 
 ## 1. The Mental Model
 A shell script is a sequence of commands the shell executes as if you typed them, but with **logic (if/then)** and **state (variables)**. 

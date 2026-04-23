@@ -1,5 +1,5 @@
 # Git History and Diffs
-[[Phase 1]] | [[Git_Internals_DAG]] | [[ROADMAP]]
+[[Phase 1]] | [[Git_Internals_DAG]]
 
 ## 1. The Mental Model
 Git is a content-addressable filesystem. A "commit" is a snapshot of your entire project, not a "diff" from the previous version. 

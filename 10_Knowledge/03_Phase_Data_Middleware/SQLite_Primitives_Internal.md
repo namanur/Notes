@@ -1,6 +1,6 @@
 # Phase 3: SQLite Primitives & Internals
 **Track:** Data & Middleware
-**Parent:** [[ROADMAP]]
+**Parent:** 
 
 ## 🧠 Mental Model: The B-Tree Pager
 SQLite is not a "server." It is a library that manages a single cross-platform file. Its "engine" is a B-Tree implementation that treats your disk as a collection of fixed-size pages.
@@ -71,4 +71,4 @@ PRAGMA integrity_check;
 - **Completion Condition:** Successfully migrate a database from `DELETE` mode to `WAL` mode and prove concurrent read/write via two separate shell sessions.
 
 ---
-**Links:** [[ROADMAP]] | [[00_daily_logs/AGENT_ACTIVITY]]
+**Links:** [[00_daily_logs/AGENT_ACTIVITY]]

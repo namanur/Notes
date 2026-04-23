@@ -30,5 +30,5 @@ Every process is born with three "umbilical cords": **File Descriptors (FD)**.
 
 ---
 **Links:**
-- [[ROADMAP]]
+- 
 - [[Reading and writing files]]
