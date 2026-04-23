@@ -27,11 +27,14 @@ The vault is organized into functional layers:
 - **`99_System/Topics.md`**: The active Learning Roadmap (Index) with checklists for tracking progress across phases.
 - **`Starting.md`**: Historical context and the origin of the current vault structure (Fedora migration).
 - **`Daily log template.md`**: The standardized structure for daily check-ins.
+- **`10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/00_MANUAL_INDEX.md`**: The entry point for the Agent Architect Manual v2.2.
+- **`10_Knowledge/04_Phase_Agentic_Systems/Agent_Architect_Manual/_SYSTEM/SESSION_LOG.md`**: The build ledger for the manual.
 
 ## Architectural Boundaries
 - **OpenSpace Repository:** Active development/experimentation.
 - **Deployment Target:** **Dell Ubuntu Server** (`192.168.31.250`) as the primary environment for the OpenSpace MCP server.
 - **Resource Note:** Monitor 4GB RAM usage closely due to co-existence with ERPNext and Samba.
+- **Project Scope:** All agent-built code for the manual must run on Ubuntu Server 22.04+ using free-tier APIs only (v2.2 protocol).
 
 ## Usage and Conventions
 - **Renaming:** Obsidian is configured to `alwaysUpdateLinks: true`. Renaming a file will automatically update all internal links.
@@ -43,6 +46,7 @@ The vault is organized into functional layers:
 - Project: The Learning Machine (Infrastructure)
 - ...
 - Project: Agentic Systems (Detailed notes for Claude, Gemini, Codex, and Aider are available).
+- Project: Agent Architect Manual (v2.2) — Building a layered study system for agentic engineering.
 
 ---
 *This file serves as the ground truth for Gemini CLI's understanding of this workspace.*
